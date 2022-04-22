@@ -1,0 +1,51 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="../../assets/Images/Docketrun_logo.png" id="icon" alt="User Icon" />
+    </div>
+    <div class="mb-2" style="font-family: 'Times New Roman', Times, serif;"><h3><b>Admin</b></h3></div>
+
+
+    <!-- Login Form -->
+    <!-- <div class="card"><button  class="btn" (click)="swap()" ngClass="!isSuperAdmin?btn:btn-warning">Admin</button><button class="btn" (click)="swap()" ngClass="isSuperAdmin?btn:btn-warning">Super Admin</button></div> -->
+    <form #authForm="ngForm" 
+        (ngSubmit)="onSubmit()">
+      <input type="text" id="login" class="fadeIn second"   ngModel name="emailaddress" placeholder="Email Address"  [formControl]="email"  required>
+      <p *ngIf="email.invalid&&email.touched" class="help-block mb-2"><small style="color: red;">*Email is
+        required</small></p>
+
+      <input type="text" id="password" class="fadeIn third"  ngModel name="password" placeholder="Password" [formControl]="password" required>
+      <p *ngIf="password.invalid&&password.touched" class="help-block mb-2"><small style="color: red;">*password is
+        required</small></p>
+      <!-- <small><a (click)="ForgotFunction()" style="cursor: pointer;" class="underlineHover" *ngIf="emailName.valid"><u>forgot password?</u></a></small><br> -->
+
+      <p *ngIf="fail" style="color:red"><small>email or password is incorrect</small></p>
+      <input type="submit" [disabled]="!authForm.valid" class="fadeIn fourth"  value="Log In">
+      
+      
+    </form> 
+    <div class="card"
+    *ngIf="isSuperAdmin"> 
+    <form >
+      <input>
+      <input>
+    </form></div>  
+
+    
+
+    <!-- Remind Passowrd -->
+    <!-- <div id="formFooter">
+       <a  (click)="ForgotFunction()" class="underlineHover mb-1 mt-0" href="#">Log in as?</a> 
+    
+      <div class="fadeIn fourth">
+        <div class="card-footer-item card-footer-item-bordered border bg text-white"><a routerLink="/superadminLogin" routerLinkActive="active" class="text-dark"> <b>Super Admin</b></a></div>
+        <div class="card-footer-item card-footer-item-bordered border bg text-white" ><a routerLink="/superadminLogin" routerLinkActive="active" class="text-dark">  <b>&nbsp; User </b> &nbsp;</a></div>
+  
+       </div>  
+ 
+       </div>  -->
+  </div>
+</div>

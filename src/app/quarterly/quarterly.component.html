@@ -1,0 +1,44 @@
+<div class="container-fluid dashboard-content">
+    <div class="page-header">
+        <h3> <b>Quarterly Analysis</b></h3>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-3 col-lg-3 col-md-3 col-xs-3" *ngIf="tempdata.length>0">
+            <div class="" >
+                <button type="button" class="btn btn-custome" (click)="downloadExcel()"><span *ngIf="!excelSheet.excelLoader">
+                        <fa-icon icon="download" class="mr-2"></fa-icon>
+                    </span><span *ngIf="excelSheet.excelLoader" class="spinner-border spinner-border-sm mr-2" role="status"
+                        aria-hidden="true"></span>Excel</button>&nbsp;
+                <button type="button" class="btn btn-custome" (click)="downloadPdf()"><span *ngIf="!pdfService.pdfLoader">
+                        <fa-icon icon="download" class="mr-2"></fa-icon>
+                    </span><span *ngIf="pdfService.pdfLoader" class="spinner-border spinner-border-sm mr-2" role="status"
+                        aria-hidden="true"></span>Pdf</button>
+            </div>
+        </div>
+    
+    </div>
+    <br />
+    <br />
+   
+        <div class="col-xl-12 col-xs-12 col-md-12 col-lg-12">
+            <div class="mx-auto card card-body">
+               
+                <h4 class="mx-auto mt-2 mb-3 text-muted">Quarterly Data</h4>
+                <div class="">
+                <canvas *ngIf="BarChartData" id="lineChart" #lineChart baseChart [datasets]="QuarterlyChart.arrayDataSet" [labels]="QuarterlyChart.labels" [plugins]="QuarterlyChart.plugins" [colors]="QuarterlyChart.colors"
+                [chartType]="QuarterlyChart.type" [options]=QuarterlyChart.Options [legend]="QuarterlyChart.legend" height="100px">
+               </canvas>
+    
+            </div>
+            
+          </div>
+       </div>
+       
+    </div>
+
+    <div class="mx-auto">
+        <app-loader></app-loader> 
+    </div>
+        

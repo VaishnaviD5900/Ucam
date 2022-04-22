@@ -1,0 +1,215 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>docketrun-web-app-new documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	   <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">docketrun-web-app-new documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="docketrunwebappnew">DocketrunWebAppNew</h1>
+<p>UCAM Dashboard is a analytics dashboard that displays the average exit entry count of the UCAM counting device based on the timely analysis done that is weekly analysis,monthly analysis,yearly analysis,interval analysis,quarterly analysis and yearly data analysis.The count is displayed using line graphs that helps in gaining meaningfull insights from the data.</p>
+<p>This project was generated with Angular CLI version 12.2.7.</p>
+<h2 id="packages-installed">Packages installed</h2>
+<p> @angular-devkit/<a href="mailto:&#x62;&#x75;&#x69;&#108;&#x64;&#45;&#x61;&#110;&#x67;&#117;&#108;&#x61;&#x72;&#64;&#x31;&#x32;&#x2e;&#x32;&#x2e;&#55;">&#x62;&#x75;&#x69;&#108;&#x64;&#45;&#x61;&#110;&#x67;&#117;&#108;&#x61;&#x72;&#64;&#x31;&#x32;&#x2e;&#x32;&#x2e;&#55;</a>
+ @angular/<a href="mailto:&#x61;&#110;&#105;&#x6d;&#x61;&#x74;&#105;&#111;&#110;&#115;&#64;&#49;&#50;&#x2e;&#50;&#x2e;&#56;">&#x61;&#110;&#105;&#x6d;&#x61;&#x74;&#105;&#111;&#110;&#115;&#64;&#49;&#50;&#x2e;&#50;&#x2e;&#56;</a>
+ @angular/<a href="mailto:&#x63;&#x64;&#x6b;&#x40;&#49;&#x32;&#46;&#50;&#46;&#49;&#x33;">&#x63;&#x64;&#x6b;&#x40;&#49;&#x32;&#46;&#50;&#46;&#49;&#x33;</a>
+ @angular/<a href="mailto:&#99;&#x6c;&#105;&#64;&#x31;&#x32;&#46;&#50;&#x2e;&#x37;">&#99;&#x6c;&#105;&#64;&#x31;&#x32;&#46;&#50;&#x2e;&#x37;</a>
+ @angular/<a href="mailto:&#x63;&#x6f;&#109;&#109;&#111;&#110;&#x40;&#x31;&#x32;&#46;&#x32;&#46;&#x38;">&#x63;&#x6f;&#109;&#109;&#111;&#110;&#x40;&#x31;&#x32;&#46;&#x32;&#46;&#x38;</a>
+ @angular/<a href="mailto:&#x63;&#x6f;&#109;&#x70;&#x69;&#x6c;&#101;&#114;&#x2d;&#99;&#108;&#105;&#64;&#x31;&#x32;&#46;&#x32;&#46;&#x38;">&#x63;&#x6f;&#109;&#x70;&#x69;&#x6c;&#101;&#114;&#x2d;&#99;&#108;&#105;&#64;&#x31;&#x32;&#46;&#x32;&#46;&#x38;</a>
+ @angular/<a href="mailto:&#99;&#x6f;&#x6d;&#112;&#105;&#x6c;&#101;&#x72;&#x40;&#x31;&#50;&#x2e;&#50;&#46;&#56;">&#99;&#x6f;&#x6d;&#112;&#105;&#x6c;&#101;&#x72;&#x40;&#x31;&#50;&#x2e;&#50;&#46;&#56;</a>
+ @angular/<a href="mailto:&#x63;&#111;&#x72;&#x65;&#64;&#x31;&#50;&#x2e;&#50;&#x2e;&#56;">&#x63;&#111;&#x72;&#x65;&#64;&#x31;&#50;&#x2e;&#50;&#x2e;&#56;</a>
+ @angular/<a href="mailto:&#x66;&#x6f;&#114;&#109;&#x73;&#x40;&#x31;&#x32;&#46;&#50;&#46;&#56;">&#x66;&#x6f;&#114;&#109;&#x73;&#x40;&#x31;&#x32;&#46;&#50;&#46;&#56;</a>
+ @angular/<a href="mailto:&#x6c;&#x6f;&#x63;&#97;&#x6c;&#105;&#x7a;&#101;&#64;&#49;&#x32;&#x2e;&#x32;&#x2e;&#56;">&#x6c;&#x6f;&#x63;&#97;&#x6c;&#105;&#x7a;&#101;&#64;&#49;&#x32;&#x2e;&#x32;&#x2e;&#56;</a>
+ @angular/<a href="mailto:&#109;&#97;&#116;&#x65;&#114;&#x69;&#97;&#x6c;&#64;&#x31;&#x32;&#46;&#50;&#x2e;&#x31;&#x33;">&#109;&#97;&#116;&#x65;&#114;&#x69;&#97;&#x6c;&#64;&#x31;&#x32;&#46;&#50;&#x2e;&#x31;&#x33;</a>
+ @angular/<a href="mailto:&#x70;&#x6c;&#97;&#x74;&#102;&#111;&#114;&#x6d;&#45;&#98;&#x72;&#x6f;&#119;&#115;&#x65;&#114;&#x2d;&#100;&#x79;&#110;&#97;&#109;&#105;&#x63;&#64;&#49;&#50;&#46;&#x32;&#x2e;&#x38;">&#x70;&#x6c;&#97;&#x74;&#102;&#111;&#114;&#x6d;&#45;&#98;&#x72;&#x6f;&#119;&#115;&#x65;&#114;&#x2d;&#100;&#x79;&#110;&#97;&#109;&#105;&#x63;&#64;&#49;&#50;&#46;&#x32;&#x2e;&#x38;</a>
+ @angular/<a href="mailto:&#112;&#x6c;&#x61;&#x74;&#x66;&#111;&#114;&#x6d;&#x2d;&#x62;&#114;&#x6f;&#x77;&#x73;&#x65;&#x72;&#x40;&#49;&#x32;&#46;&#x32;&#x2e;&#56;">&#112;&#x6c;&#x61;&#x74;&#x66;&#111;&#114;&#x6d;&#x2d;&#x62;&#114;&#x6f;&#x77;&#x73;&#x65;&#x72;&#x40;&#49;&#x32;&#46;&#x32;&#x2e;&#56;</a>
+ @angular/<a href="mailto:&#114;&#111;&#117;&#116;&#101;&#x72;&#x40;&#x31;&#50;&#x2e;&#50;&#x2e;&#x38;">&#114;&#111;&#117;&#116;&#101;&#x72;&#x40;&#x31;&#50;&#x2e;&#50;&#x2e;&#x38;</a>
+ @fortawesome/<a href="mailto:&#97;&#110;&#x67;&#117;&#x6c;&#x61;&#x72;&#45;&#102;&#111;&#110;&#116;&#97;&#x77;&#101;&#115;&#111;&#109;&#x65;&#x40;&#48;&#x2e;&#x39;&#46;&#48;">&#97;&#110;&#x67;&#117;&#x6c;&#x61;&#x72;&#45;&#102;&#111;&#110;&#116;&#97;&#x77;&#101;&#115;&#111;&#109;&#x65;&#x40;&#48;&#x2e;&#x39;&#46;&#48;</a>
+ @fortawesome/<a href="mailto:&#x66;&#111;&#x6e;&#x74;&#x61;&#x77;&#x65;&#115;&#111;&#109;&#x65;&#x2d;&#115;&#x76;&#103;&#45;&#99;&#x6f;&#x72;&#101;&#64;&#x31;&#46;&#50;&#x2e;&#x33;&#53;">&#x66;&#111;&#x6e;&#x74;&#x61;&#x77;&#x65;&#115;&#111;&#109;&#x65;&#x2d;&#115;&#x76;&#103;&#45;&#99;&#x6f;&#x72;&#101;&#64;&#x31;&#46;&#50;&#x2e;&#x33;&#53;</a>
+ @fortawesome/<a href="mailto:&#x66;&#114;&#101;&#x65;&#x2d;&#x73;&#x6f;&#108;&#x69;&#100;&#x2d;&#x73;&#118;&#103;&#x2d;&#105;&#x63;&#x6f;&#110;&#115;&#64;&#53;&#x2e;&#x31;&#53;&#x2e;&#52;">&#x66;&#114;&#101;&#x65;&#x2d;&#x73;&#x6f;&#108;&#x69;&#100;&#x2d;&#x73;&#118;&#103;&#x2d;&#105;&#x63;&#x6f;&#110;&#115;&#64;&#53;&#x2e;&#x31;&#53;&#x2e;&#52;</a>
+ @ng-bootstrap/<a href="mailto:&#110;&#103;&#x2d;&#98;&#111;&#x6f;&#x74;&#115;&#x74;&#x72;&#x61;&#x70;&#x40;&#57;&#46;&#x31;&#46;&#x33;">&#110;&#103;&#x2d;&#98;&#111;&#x6f;&#x74;&#115;&#x74;&#x72;&#x61;&#x70;&#x40;&#57;&#46;&#x31;&#46;&#x33;</a>
+ @types/<a href="mailto:&#x65;&#120;&#99;&#x65;&#108;&#x6a;&#115;&#64;&#x31;&#x2e;&#x33;&#x2e;&#48;">&#x65;&#120;&#99;&#x65;&#108;&#x6a;&#115;&#64;&#x31;&#x2e;&#x33;&#x2e;&#48;</a>
+ @types/<a href="mailto:&#x66;&#105;&#108;&#101;&#x2d;&#115;&#x61;&#x76;&#101;&#114;&#x40;&#x32;&#46;&#48;&#x2e;&#51;">&#x66;&#105;&#108;&#101;&#x2d;&#115;&#x61;&#x76;&#101;&#114;&#x40;&#x32;&#46;&#48;&#x2e;&#51;</a>
+ @types/<a href="mailto:&#x6a;&#x61;&#115;&#x6d;&#105;&#110;&#x65;&#64;&#x33;&#46;&#x38;&#x2e;&#x32;">&#x6a;&#x61;&#115;&#x6d;&#105;&#110;&#x65;&#64;&#x33;&#46;&#x38;&#x2e;&#x32;</a>
+ @types/<a href="mailto:&#106;&#113;&#117;&#101;&#x72;&#x79;&#x40;&#51;&#46;&#53;&#46;&#54;">&#106;&#113;&#117;&#101;&#x72;&#x79;&#x40;&#51;&#46;&#53;&#46;&#54;</a>
+ @types/<a href="mailto:&#106;&#115;&#x70;&#x64;&#102;&#x40;&#x32;&#46;&#x30;&#46;&#48;">&#106;&#115;&#x70;&#x64;&#102;&#x40;&#x32;&#46;&#x30;&#46;&#48;</a>
+ @types/<a href="mailto:&#x6e;&#111;&#x64;&#101;&#64;&#49;&#x32;&#x2e;&#50;&#x30;&#x2e;&#x34;&#x35;">&#x6e;&#111;&#x64;&#101;&#64;&#49;&#x32;&#x2e;&#50;&#x30;&#x2e;&#x34;&#x35;</a>
+ <a href="mailto:&#x62;&#111;&#x6f;&#x74;&#x73;&#x74;&#x72;&#x61;&#112;&#x40;&#x34;&#46;&#54;&#x2e;&#48;">&#x62;&#111;&#x6f;&#x74;&#x73;&#x74;&#x72;&#x61;&#112;&#x40;&#x34;&#46;&#54;&#x2e;&#48;</a>
+ <a href="mailto:&#x63;&#x68;&#97;&#114;&#116;&#x2e;&#x6a;&#x73;&#x40;&#x32;&#46;&#x39;&#46;&#52;">&#x63;&#x68;&#97;&#114;&#116;&#x2e;&#x6a;&#x73;&#x40;&#x32;&#46;&#x39;&#46;&#52;</a>
+ <a href="mailto:&#99;&#x68;&#x61;&#x72;&#x74;&#106;&#x73;&#45;&#112;&#108;&#x75;&#103;&#105;&#x6e;&#45;&#100;&#97;&#x74;&#97;&#108;&#97;&#x62;&#x65;&#108;&#x73;&#x40;&#x30;&#46;&#53;&#x2e;&#x30;">&#99;&#x68;&#x61;&#x72;&#x74;&#106;&#x73;&#45;&#112;&#108;&#x75;&#103;&#105;&#x6e;&#45;&#100;&#97;&#x74;&#97;&#108;&#97;&#x62;&#x65;&#108;&#x73;&#x40;&#x30;&#46;&#53;&#x2e;&#x30;</a>
+ <a href="mailto:&#99;&#104;&#97;&#114;&#116;&#x73;&#x6a;&#115;&#x2d;&#x70;&#108;&#x75;&#x67;&#x69;&#x6e;&#45;&#x64;&#97;&#x74;&#x61;&#45;&#108;&#x61;&#x62;&#101;&#108;&#115;&#x40;&#x30;&#x2e;&#49;&#46;&#53;">&#99;&#104;&#97;&#114;&#116;&#x73;&#x6a;&#115;&#x2d;&#x70;&#108;&#x75;&#x67;&#x69;&#x6e;&#45;&#x64;&#97;&#x74;&#x61;&#45;&#108;&#x61;&#x62;&#101;&#108;&#115;&#x40;&#x30;&#x2e;&#49;&#46;&#53;</a>
+ <a href="mailto:&#x63;&#x6f;&#x72;&#x73;&#x40;&#x32;&#x2e;&#x38;&#x2e;&#x35;">&#x63;&#x6f;&#x72;&#x73;&#x40;&#x32;&#x2e;&#x38;&#x2e;&#x35;</a>
+ <a href="mailto:&#x63;&#114;&#x79;&#112;&#x74;&#111;&#45;&#98;&#114;&#x6f;&#119;&#115;&#101;&#114;&#x69;&#x66;&#x79;&#64;&#x33;&#x2e;&#49;&#x32;&#46;&#x30;">&#x63;&#114;&#x79;&#112;&#x74;&#111;&#45;&#98;&#114;&#x6f;&#119;&#115;&#101;&#114;&#x69;&#x66;&#x79;&#64;&#x33;&#x2e;&#49;&#x32;&#46;&#x30;</a>
+ <a href="mailto:&#101;&#x78;&#99;&#101;&#108;&#x6a;&#x73;&#x40;&#52;&#46;&#x33;&#x2e;&#48;">&#101;&#x78;&#99;&#101;&#108;&#x6a;&#x73;&#x40;&#52;&#46;&#x33;&#x2e;&#48;</a>
+ <a href="mailto:&#x66;&#105;&#108;&#x65;&#45;&#x73;&#97;&#118;&#101;&#x72;&#x40;&#x32;&#46;&#x30;&#x2e;&#x35;">&#x66;&#105;&#108;&#x65;&#45;&#x73;&#97;&#118;&#101;&#x72;&#x40;&#x32;&#46;&#x30;&#x2e;&#x35;</a>
+ <a href="mailto:&#102;&#111;&#110;&#x74;&#x2d;&#x61;&#119;&#x65;&#115;&#111;&#109;&#x65;&#64;&#52;&#x2e;&#x37;&#46;&#x30;">&#102;&#111;&#110;&#x74;&#x2d;&#x61;&#119;&#x65;&#115;&#111;&#109;&#x65;&#64;&#52;&#x2e;&#x37;&#46;&#x30;</a>
+ <a href="mailto:&#x68;&#97;&#109;&#109;&#x65;&#x72;&#x6a;&#x73;&#x40;&#50;&#46;&#x30;&#46;&#56;">&#x68;&#97;&#109;&#109;&#x65;&#x72;&#x6a;&#x73;&#x40;&#50;&#46;&#x30;&#46;&#56;</a>
+ <a href="mailto:&#x6a;&#x61;&#115;&#109;&#105;&#x6e;&#101;&#x2d;&#99;&#111;&#x72;&#x65;&#x40;&#51;&#x2e;&#x38;&#x2e;&#48;">&#x6a;&#x61;&#115;&#109;&#105;&#x6e;&#101;&#x2d;&#99;&#111;&#x72;&#x65;&#x40;&#51;&#x2e;&#x38;&#x2e;&#48;</a>
+ <a href="mailto:&#x6a;&#113;&#117;&#x65;&#114;&#x79;&#64;&#x33;&#x2e;&#54;&#x2e;&#48;">&#x6a;&#113;&#117;&#x65;&#114;&#x79;&#64;&#x33;&#x2e;&#54;&#x2e;&#48;</a>
+ <a href="mailto:&#x6a;&#115;&#x70;&#x64;&#102;&#x2d;&#97;&#x75;&#116;&#111;&#116;&#x61;&#98;&#108;&#x65;&#64;&#x33;&#x2e;&#53;&#x2e;&#50;&#48;">&#x6a;&#115;&#x70;&#x64;&#102;&#x2d;&#97;&#x75;&#116;&#111;&#116;&#x61;&#98;&#108;&#x65;&#64;&#x33;&#x2e;&#53;&#x2e;&#50;&#48;</a>
+ <a href="mailto:&#x6a;&#x73;&#112;&#100;&#x66;&#64;&#x32;&#x2e;&#x34;&#x2e;&#48;">&#x6a;&#x73;&#112;&#100;&#x66;&#64;&#x32;&#x2e;&#x34;&#x2e;&#48;</a>
+ <a href="mailto:&#x6b;&#97;&#x72;&#x6d;&#97;&#45;&#99;&#x68;&#x72;&#x6f;&#x6d;&#101;&#45;&#x6c;&#97;&#x75;&#110;&#99;&#x68;&#x65;&#114;&#64;&#x33;&#x2e;&#x31;&#46;&#x30;">&#x6b;&#97;&#x72;&#x6d;&#97;&#45;&#99;&#x68;&#x72;&#x6f;&#x6d;&#101;&#45;&#x6c;&#97;&#x75;&#110;&#99;&#x68;&#x65;&#114;&#64;&#x33;&#x2e;&#x31;&#46;&#x30;</a>
+ <a href="mailto:&#x6b;&#97;&#114;&#x6d;&#97;&#45;&#99;&#111;&#x76;&#101;&#x72;&#97;&#x67;&#101;&#x40;&#50;&#46;&#x30;&#x2e;&#51;">&#x6b;&#97;&#114;&#x6d;&#97;&#45;&#99;&#111;&#x76;&#101;&#x72;&#97;&#x67;&#101;&#x40;&#50;&#46;&#x30;&#x2e;&#51;</a>
+ <a href="mailto:&#x6b;&#x61;&#114;&#x6d;&#97;&#45;&#x6a;&#97;&#x73;&#109;&#105;&#x6e;&#101;&#x2d;&#104;&#x74;&#109;&#108;&#x2d;&#114;&#101;&#112;&#111;&#x72;&#116;&#101;&#114;&#x40;&#49;&#46;&#x37;&#x2e;&#x30;">&#x6b;&#x61;&#114;&#x6d;&#97;&#45;&#x6a;&#97;&#x73;&#109;&#105;&#x6e;&#101;&#x2d;&#104;&#x74;&#109;&#108;&#x2d;&#114;&#101;&#112;&#111;&#x72;&#116;&#101;&#114;&#x40;&#49;&#46;&#x37;&#x2e;&#x30;</a>
+ <a href="mailto:&#x6b;&#97;&#x72;&#x6d;&#97;&#45;&#x6a;&#97;&#x73;&#109;&#105;&#110;&#x65;&#x40;&#x34;&#46;&#48;&#46;&#49;">&#x6b;&#97;&#x72;&#x6d;&#97;&#45;&#x6a;&#97;&#x73;&#109;&#105;&#110;&#x65;&#x40;&#x34;&#46;&#48;&#46;&#49;</a>
+ <a href="mailto:&#107;&#x61;&#114;&#x6d;&#97;&#x40;&#x36;&#x2e;&#x33;&#x2e;&#52;">&#107;&#x61;&#114;&#x6d;&#97;&#x40;&#x36;&#x2e;&#x33;&#x2e;&#52;</a>
+ <a href="mailto:&#x6c;&#105;&#116;&#x65;&#x2d;&#115;&#101;&#114;&#x76;&#x65;&#x72;&#64;&#x32;&#46;&#54;&#46;&#x31;">&#x6c;&#105;&#116;&#x65;&#x2d;&#115;&#101;&#114;&#x76;&#x65;&#x72;&#64;&#x32;&#46;&#54;&#46;&#x31;</a>
+ <a href="mailto:&#x6e;&#103;&#x32;&#45;&#x63;&#x68;&#97;&#114;&#x74;&#115;&#x40;&#x32;&#46;&#52;&#46;&#x33;">&#x6e;&#103;&#x32;&#45;&#x63;&#x68;&#97;&#114;&#x74;&#115;&#x40;&#x32;&#46;&#52;&#46;&#x33;</a>
+ <a href="mailto:&#x6e;&#x67;&#x78;&#45;&#x62;&#111;&#111;&#x74;&#115;&#x74;&#x72;&#97;&#x70;&#x40;&#55;&#x2e;&#x31;&#46;&#x30;">&#x6e;&#x67;&#x78;&#45;&#x62;&#111;&#111;&#x74;&#115;&#x74;&#x72;&#97;&#x70;&#x40;&#55;&#x2e;&#x31;&#46;&#x30;</a>
+ <a href="mailto:&#110;&#x67;&#120;&#x2d;&#x69;&#109;&#97;&#103;&#x65;&#x2d;&#122;&#x6f;&#x6f;&#109;&#64;&#48;&#46;&#54;&#46;&#x30;">&#110;&#x67;&#120;&#x2d;&#x69;&#109;&#97;&#103;&#x65;&#x2d;&#122;&#x6f;&#x6f;&#109;&#64;&#48;&#46;&#54;&#46;&#x30;</a>
+ <a href="mailto:&#x6e;&#x67;&#x78;&#x2d;&#x75;&#x69;&#x2d;&#x73;&#x77;&#105;&#x74;&#x63;&#x68;&#64;&#49;&#x32;&#46;&#48;&#46;&#x31;">&#x6e;&#x67;&#x78;&#x2d;&#x75;&#x69;&#x2d;&#x73;&#x77;&#105;&#x74;&#x63;&#x68;&#64;&#49;&#x32;&#46;&#48;&#46;&#x31;</a>
+ <a href="mailto:&#x70;&#97;&#116;&#104;&#45;&#x62;&#x72;&#111;&#x77;&#115;&#x65;&#114;&#x69;&#102;&#121;&#x40;&#49;&#x2e;&#48;&#46;&#x31;">&#x70;&#97;&#116;&#104;&#45;&#x62;&#x72;&#111;&#x77;&#115;&#x65;&#114;&#x69;&#102;&#121;&#x40;&#49;&#x2e;&#48;&#46;&#x31;</a>
+ <a href="mailto:&#x70;&#x6f;&#x70;&#x70;&#x65;&#114;&#x2e;&#106;&#x73;&#x40;&#x31;&#46;&#x31;&#54;&#x2e;&#49;">&#x70;&#x6f;&#x70;&#x70;&#x65;&#114;&#x2e;&#106;&#x73;&#x40;&#x31;&#46;&#x31;&#54;&#x2e;&#49;</a>
+ <a href="mailto:&#114;&#120;&#106;&#x73;&#64;&#x36;&#46;&#54;&#46;&#x37;">&#114;&#120;&#106;&#x73;&#64;&#x36;&#46;&#54;&#46;&#x37;</a>
+ <a href="mailto:&#116;&#115;&#x6c;&#x69;&#x62;&#64;&#x32;&#46;&#51;&#x2e;&#x31;">&#116;&#115;&#x6c;&#x69;&#x62;&#64;&#x32;&#46;&#51;&#x2e;&#x31;</a>
+ <a href="mailto:&#116;&#121;&#x70;&#101;&#115;&#99;&#x72;&#105;&#112;&#x74;&#64;&#52;&#46;&#x33;&#46;&#x35;">&#116;&#121;&#x70;&#101;&#115;&#99;&#x72;&#105;&#112;&#x74;&#64;&#52;&#46;&#x33;&#46;&#x35;</a>
+ <a href="mailto:&#x75;&#116;&#x69;&#108;&#64;&#48;&#46;&#x31;&#50;&#46;&#x34;">&#x75;&#116;&#x69;&#108;&#64;&#48;&#46;&#x31;&#50;&#46;&#x34;</a>
+ <a href="mailto:&#120;&#x6c;&#x73;&#120;&#x40;&#x30;&#x2e;&#x31;&#55;&#46;&#x35;">&#120;&#x6c;&#x73;&#120;&#x40;&#x30;&#x2e;&#x31;&#55;&#46;&#x35;</a>
+ <a href="mailto:&#x7a;&#111;&#x6e;&#x65;&#46;&#106;&#x73;&#64;&#48;&#46;&#x31;&#49;&#x2e;&#52;">&#x7a;&#111;&#x6e;&#x65;&#46;&#106;&#x73;&#64;&#48;&#46;&#x31;&#49;&#x2e;&#52;</a></p>
+<p> Run <code>npm install</code> to install the above packages. (terminal)
+ Run <code>npm install package-name</code> to install other packages if needed.</p>
+<h2 id="main-components">Main components</h2>
+<ol>
+<li>Weekly Analysis</li>
+<li>Monthly Analysis</li>
+<li>Yearly Analysis</li>
+<li>Interval Analysis</li>
+<li>Yearly Data Analysis</li>
+<li>Quarterly Data Analysis</li>
+</ol>
+<p> Every component has a html,css,chartmodel.ts and component.ts file. Based on the data that needs to be viewed, the respective component is called and its corresponding data is presented to the user.</p>
+<p> For example: Consider the “analysis component”, 
+ analysis : On providing the start date and the end date, line chart with entry, exit and average is loaded and the device name, the total entries and the total exits in the given date range are displayed. The loaded chart and the data in the given date range can be downloaded as excel or pdf.</p>
+<p> analysis.component.css: Contains the styles for the html</p>
+<p> analysis.component.html: It contains the structure of the analysis web-page (the excel and pdf buttons, the canvas)</p>
+<p> chartmodel.ts: It is a class that is instantiated whenever chart object is created that is further used to store data retrieved from api and plots the required graph.</p>
+<p> analysis.component.ts: In the submit function the data is being fetched and assigned to labels and data for the chart.</p>
+<p> downloadPdf(): function creates a pdf with the chart and helps in downloading the pdf.</p>
+<p> downloadExcel(): function creates an excel with the chart and helps in downloading the excel.</p>
+<p> Similarly the working is depicted in other components based on the data.</p>
+<p> compare-monthly: It shows the comparison between the averages of the current month and the previous month in the form of a line chart which can be downloaded as an  excel or a pdf.</p>
+<p> compare-weekly: It shows the contrast between the averages, the entries and the exits of the current week and the previous week in the form of a line chart that can be downloaded as an excel or a pdf.</p>
+<p> compare-yearly: It presents the juxtaposition of the averages of the current year and the previous year in a line chart that can be downloaded as an excel or a pdf.</p>
+<p> quarterly:  Quarterly averages are plotted in a line chart that can be easily downloaded as an excel or a pdf.</p>
+<p> yearly: Yearly averages are plotted in a line chart which can be downloaded as an excel or a pdf.</p>
+<h2 id="development-server">Development server</h2>
+<p>Run <code>ng serve</code> for a dev server. Navigate to <code>http://localhost:4200/</code>. The app will automatically reload if you change any of the source files.</p>
+<h2 id="code-scaffolding">Code scaffolding</h2>
+<p>Run <code>ng generate component component-name</code> to generate a new component. You can also use <code>ng generate directive|pipe|service|class|guard|interface|enum|module</code>.</p>
+<h2 id="to-change-the-url-of-api">To change the URL of API</h2>
+<p>Open assets/config.json  and edit the API_URL with the URL of your choice.</p>
+<h2 id="to-add-new-apis">To add new APIs</h2>
+<p>Open services/web-server.service.ts and add the required API.</p>
+<h2 id="build">Build</h2>
+<p>Run <code>ng build</code> to build the project. The build artifacts will be stored in the <code>dist/</code> directory.</p>
+<h2 id="running-unit-tests">Running unit tests</h2>
+<p>Run <code>ng test</code> to execute the unit tests via Karma.</p>
+<h2 id="running-end-to-end-tests">Running end-to-end tests</h2>
+<p>Run <code>ng e2e</code> to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.</p>
+<h2 id="further-help">Further help</h2>
+<p>To get more help on the Angular CLI use <code>ng help</code> or go check out the Angular CLI Overview and Command Reference page.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="./js/libs/custom-elements.min.js"></script>
+       <script src="./js/libs/lit-html.js"></script>
+
+       <script src="./js/menu-wc.js" defer></script>
+       <script nomodule src="./js/menu-wc_es5.js" defer></script>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/clipboard.min.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+          <script src="./js/search/search.js"></script>
+          <script src="./js/search/lunr.min.js"></script>
+          <script src="./js/search/search-lunr.js"></script>
+          <script src="./js/search/search_index.js"></script>
+       <script src="./js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

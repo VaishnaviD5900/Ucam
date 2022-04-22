@@ -1,0 +1,155 @@
+button.calendar {
+    width: 2.75rem;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAYAAAAEN20fAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7ZQxToVAEIY/YCHGxN6XGOIpnpaEsBSeQC9ArZbm9TZ6ADyBNzAhQGGl8Riv4BLAWAgmkpBYkH1b8FWT2WK/zJ8ZJ4qiI6XUI3ANnGKWBnht2/ZBDRK3hgVGNsCd7/ui+JkEIrKtqurLpEWaphd933+IyI3LEIdpCYCiKD6HcuOa/nwOa0ScJEnk0BJg0UTUWJRl6RxCYEzEmomsIlPU3IPW+grIAbquy+q6fluy/28RIBeRMwDXdXMgXLj/B2uimRXpui4D9sBeRLKl+1N+L+t6RwbWrZliTTTr1oxYtzVWiTQAcRxvTX+eJMnlUDaO1vpZRO5NS0x48sIwfPc87xg4B04MCzQi8hIEwe4bl1DnFMCN2zsAAAAASUVORK5CYII=) !important;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center;
+}
+.image{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 110px;
+    width: 230px;
+    
+    object-fit:contain;
+}
+
+ ::ng-deep .modalViol {
+     left: 390px;    
+     top: 10px;
+     animation: 3s infinite beatHeart; 
+     transform-origin:center;
+     
+     /* border:1px solid rgb(99, 9, 9) */
+
+  }
+
+  ::ng-deep .modalViol:hover {
+    left: 390px;    
+    top: 10px;
+    animation: .9s infinite; 
+    transform-origin: center;
+    
+    
+
+ }
+ table.table-striped tbody tr td:hover{
+    /* border: 1px solid black; */
+    font-weight: bold;
+
+    border-bottom: 2px solid rgba(16, 10, 104, 0.938); ;
+}
+/* table.table-striped thead tbody tr td{
+  font-weight: bold;
+  padding: 4px;
+
+  border-bottom: 2px solid rgb(247, 63, 134) ;
+} */
+ 
+/* table.table-striped tbody tr:nth-child(odd){
+
+  background-color: rgba(252, 186, 219, 0.336);
+
+}
+
+table.table-striped tbody tr:nth-child(even){
+
+  background-color: rgba(94, 15, 54, 0.021);
+
+} */
+
+/* table.table-striped thead tr th{
+   
+  background-color: rgba(156, 21, 73, 0.788);
+  color:white
+
+} */
+
+
+
+table.table-striped tbody tr:nth-child(odd){
+
+  background-color: rgba(175, 174, 192, 0.5);
+
+}
+
+table.table-striped tbody tr:nth-child(even){
+
+  background-color: rgba(16, 10, 104, 0.041);
+
+} 
+
+ /* table.table-striped thead tr th{
+   
+  background-color: #1b97aa;
+  color:white
+
+} */
+
+.btn.btn-custome{
+  background-color:#1b97aa; 
+  color:black
+}
+
+table.table-striped{
+  /* font-size:15px; */
+  max-width: 100%;
+  /* overflow: scroll; */
+}
+
+/* .card{
+  overflow-x: auto;
+} */
+
+
+  .violImage{
+    width: 360px;
+    height: 250px;
+     object-fit:fill;
+  }
+
+  ::ng-deep .custome{
+    /* margin-block-start: 70px; */
+    width:630px;
+    padding:0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    left: 300px;
+    text-align: center;
+
+}
+
+  ::ng-deep .ngxImageZoomContainer > img{
+    max-height: 600px;
+    width: 600px;
+    object-fit: fill;
+    margin-left: 0px;
+
+  }
+
+input.ng-invalid.ng-touched{
+    border-color: rgb(245, 172, 172);
+}
+
+ngb-pagination ::ng-deep ul > li:not(.active) > a {
+  background-color: rgba(186, 185, 189, 0.938) !important;
+}
+
+ngb-pagination ::ng-deep ul > li.active > a {
+  background-color: rgba(16, 10, 104, 0.979) !important;
+}
+
+
+/* div.container-fluid.dashboard-content{
+  width:90vw;
+  overflow: auto;
+
+  /* overflow-wrap: break-word; */
+
+  @keyframes tada {
+    0% {transform: scale(1);} 
+    10%, 20% {transform: scale(0.9) rotate(-3deg);} 
+    30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);} 
+    40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);} 
+    100% {transform: scale(1) rotate(0);} 
+ } 

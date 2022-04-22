@@ -1,0 +1,127 @@
+<div class="container-fluid dashboard-content">
+  <div class="page-header">
+      <h3> <b>Interval Analysis</b></h3>
+  </div>
+
+  <div class="row">
+      <div class="col-xl-3 col-xs-3 col-md-3 col-lg-3">
+          <div class="input-group">
+              <input class="form-control" placeholder="Select Start Date" [formControl]="startdate" ngbDatepicker
+                  #startD="ngbDatepicker" (click)="startD.toggle()" readonly>
+              <div class="input-group-append">
+                  <button class="btn btn-custome calendar" (click)="startD.toggle()" type="button"></button>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-xl-3 col-xs-3 col-md-3 col-lg-3 form-group">
+          <div class="input-group">  
+              <input class="form-control" placeholder="Select End Date" ngbDatepicker #endD="ngbDatepicker"
+                  (click)="endD.toggle()" readonly [formControl]="enddate">
+              <div class="input-group-append">
+                  <button class="btn btn-custome calendar" (click)="endD.toggle()" type="button"></button>
+              </div>
+
+
+          </div>
+      </div>
+      
+      <div class="col-xl-1 col-xs-1 col-lg-1 col-md-1">
+          <button class="btn btn-custome"   (click)="Submit()" style="width:70px"
+              [disabled]="!(startdate.valid && enddate.valid)"><span *ngIf="!loading">Submit</span>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf="loading"></span>
+          </button>
+
+      </div>
+
+      <div class="col-xl-3 col-lg-3 col-md-3 col-xs-3" *ngIf="tempdata.length>0">
+          <div class="" >
+              <button type="button" class="btn btn-custome" (click)="downloadExcel()"><span *ngIf="!excelSheet.excelLoader">
+                      <fa-icon icon="download" class="mr-2"></fa-icon>
+                  </span><span *ngIf="excelSheet.excelLoader" class="spinner-border spinner-border-sm mr-2" role="status"
+                      aria-hidden="true"></span>Excel</button>&nbsp;
+              <button type="button" class="btn btn-custome" (click)="downloadPdf()"><span *ngIf="!pdfService.pdfLoader">
+                      <fa-icon icon="download" class="mr-2"></fa-icon>
+                  </span><span *ngIf="pdfService.pdfLoader" class="spinner-border spinner-border-sm mr-2" role="status"
+                      aria-hidden="true"></span>Pdf</button>
+          </div>
+      </div>
+
+  </div>
+  <br />
+  <br />
+
+  <div class="row">
+
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+          <div class="card " style="min-width:220px;min-height: 120px;max-height: 120px;">
+              <div class="card-body">
+                  <div class="d-inline-block" >
+                      <h5 class="text-muted">Total Entry </h5>
+                      <h4 class="mb-0" id="camera1_in">{{this.totalEntry}}</h4>
+                  </div>
+                  <div class="float-right icon-circle-medium  icon-box-lg  bg-info-light mt-1">
+                      <fa-icon icon="walking" size="sm" class="text-info"></fa-icon>
+                      <fa-icon icon="walking" size="sm" class="text-info"></fa-icon>
+
+                  </div>
+              </div>
+              <div class="mb-0">
+                  <div class="live"></div>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+          <div class="card" style="min-width:220px;min-height: 120px;max-height: 120px;">
+              <div class="card-body">
+                  <div class="d-inline-block" style="width: 130;">
+                      <h5 class="text-muted">Total Exit </h5>
+                      <h4 class="mb-0" id="camera1_out" style="overflow-wrap: break-word">{{this.totalExit}}</h4>
+                  </div>
+                  <div class="float-right icon-circle-medium  icon-box-lg  bg-primary-light mt-1">
+                      <fa-icon icon="walking" flip="horizontal" size="sm" class="text-primary"></fa-icon>
+                      <fa-icon icon="walking" flip="horizontal" size="sm" class="text-primary"></fa-icon>
+                  </div>
+              </div>
+              <div class="mb-0">
+                  <div class="live"></div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+          <div class="card" style="min-width: 220px;min-height: 120px;max-height: 120px;">
+              <div class="card-body">
+                  <div class="d-inline-block">
+                      <h5 class="text-muted">Device Name</h5>
+                      <h4 class="mb-0" id="camera1_out"  style=" overflow-wrap: break-word" *ngIf="currentData.device_name">{{currentData.device_name}}</h4>
+                  </div>
+                  <div class="float-right icon-circle-medium  icon-box-lg  bg-secondary-light mt-1">
+                      <fa-icon icon="laptop" size="sm" class="text-secondary"></fa-icon>
+                  </div>
+              </div>
+              <div class="mb-0">
+                  <div class="live"></div>
+              </div>
+
+          </div>
+      </div>
+ 
+      <div class="col-xl-12 col-xs-12 col-md-12 col-lg-12">
+          <div class="mx-auto card card-body">
+             
+              <h4 class="mx-auto mt-2 mb-3 text-muted">Interval Data</h4>
+              <div class="">
+              <canvas *ngIf="BarChartData" id="lineChart" #lineChart baseChart [datasets]="IntervalChart.arrayDataSet" [labels]="IntervalChart.labels" [plugins]="IntervalChart.plugins" [colors]="IntervalChart.colors"
+              [chartType]="IntervalChart.type" [options]=IntervalChart.Options [legend]="IntervalChart.legend" height="100px">
+             </canvas>
+  
+          </div>
+          
+        </div>
+     </div>
+     
+  </div>
+</div>

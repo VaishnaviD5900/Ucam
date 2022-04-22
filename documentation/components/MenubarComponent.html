@@ -1,0 +1,1002 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>docketrun-web-app-new documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">docketrun-web-app-new documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  MenubarComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/NavigationBar/menubar/menubar.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-menubar</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./menubar.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./menubar.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#JSW" >JSW</a>
+                            </li>
+                            <li>
+                                <a href="#navbarOpen" >navbarOpen</a>
+                            </li>
+                            <li>
+                                <a href="#NS" >NS</a>
+                            </li>
+                            <li>
+                                <a href="#seeSettings" >seeSettings</a>
+                            </li>
+                            <li>
+                                <a href="#Settings" >Settings</a>
+                            </li>
+                            <li>
+                                <a href="#showCustomer" >showCustomer</a>
+                            </li>
+                            <li>
+                                <a href="#showDash" >showDash</a>
+                            </li>
+                            <li>
+                                <a href="#showFeature" >showFeature</a>
+                            </li>
+                            <li>
+                                <a href="#showFeaturesL" >showFeaturesL</a>
+                            </li>
+                            <li>
+                                <a href="#showSCD" >showSCD</a>
+                            </li>
+                            <li>
+                                <a href="#UserToggle" >UserToggle</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#featuresToggle" >featuresToggle</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#settings" >settings</a>
+                            </li>
+                            <li>
+                                <a href="#toggleNavbar" >toggleNavbar</a>
+                            </li>
+                            <li>
+                                <a href="#userToggle" >userToggle</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="featuresToggle"></a>
+                    <span class="name">
+                        <span ><b>featuresToggle</b></span>
+                        <a href="#featuresToggle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>featuresToggle()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="100"
+                            class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:100</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="39"
+                            class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:39</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="settings"></a>
+                    <span class="name">
+                        <span ><b>settings</b></span>
+                        <a href="#settings"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>settings()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="103"
+                            class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:103</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toggleNavbar"></a>
+                    <span class="name">
+                        <span ><b>toggleNavbar</b></span>
+                        <a href="#toggleNavbar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toggleNavbar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="25"
+                            class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:25</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="userToggle"></a>
+                    <span class="name">
+                        <span ><b>userToggle</b></span>
+                        <a href="#userToggle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>userToggle()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="96"
+                            class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:96</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="JSW"></a>
+                    <span class="name">
+                        <span ><b>JSW</b></span>
+                        <a href="#JSW"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="navbarOpen"></a>
+                    <span class="name">
+                        <span ><b>navbarOpen</b></span>
+                        <a href="#navbarOpen"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="NS"></a>
+                    <span class="name">
+                        <span ><b>NS</b></span>
+                        <a href="#NS"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:21</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="seeSettings"></a>
+                    <span class="name">
+                        <span ><b>seeSettings</b></span>
+                        <a href="#seeSettings"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Settings"></a>
+                    <span class="name">
+                        <span ><b>Settings</b></span>
+                        <a href="#Settings"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showCustomer"></a>
+                    <span class="name">
+                        <span ><b>showCustomer</b></span>
+                        <a href="#showCustomer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showDash"></a>
+                    <span class="name">
+                        <span ><b>showDash</b></span>
+                        <a href="#showDash"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:11</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showFeature"></a>
+                    <span class="name">
+                        <span ><b>showFeature</b></span>
+                        <a href="#showFeature"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showFeaturesL"></a>
+                    <span class="name">
+                        <span ><b>showFeaturesL</b></span>
+                        <a href="#showFeaturesL"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:13</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showSCD"></a>
+                    <span class="name">
+                        <span ><b>showSCD</b></span>
+                        <a href="#showSCD"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:12</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="UserToggle"></a>
+                    <span class="name">
+                        <span ><b>UserToggle</b></span>
+                        <a href="#UserToggle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/NavigationBar/menubar/menubar.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, ElementRef, HostListener, OnInit, ViewChild } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+// import { AuthService } from &#x27;src/app/services/auth.service&#x27;;
+ 
+@Component({
+  selector: &#x27;app-menubar&#x27;,
+  templateUrl: &#x27;./menubar.component.html&#x27;,
+  styleUrls: [&#x27;./menubar.component.css&#x27;]
+})
+export class MenubarComponent implements OnInit {
+  showDash&#x3D;true;
+  showSCD&#x3D;true;
+  showFeaturesL&#x3D;true;
+  showCustomer&#x3D;true;
+  navbarOpen &#x3D; false;
+  seeSettings&#x3D;false
+  // public clicked &#x3D; false;
+  UserToggle&#x3D;false
+  showFeature&#x3D;false
+  Settings &#x3D; false
+  NS&#x3D;false 
+  JSW&#x3D;false
+  
+  // @ViewChild(&#x27;_el&#x27;) _el: ElementRef ;
+  toggleNavbar() {
+    
+  }
+  constructor(private router: Router ) { 
+    //this._el &#x3D; new ElementRef(MenubarComponent);
+  // this.authServce.isSuperAdmin.subscribe(data&#x3D;&gt;{
+  //   console.log(data)
+  //   this.seeSettings&#x3D;data
+  // })
+  // if(sessionStorage.getItem(&#x27;SupAdmToken&#x27;)){
+  //   this.seeSettings&#x3D;true
+ 
+  // }
+  }
+  ngOnInit() {
+  //   this.authServce.hideforSir.subscribe(data&#x3D;&gt;{this.showFeature&#x3D;data;
+  //   this.showDash&#x3D;data;
+  // this.showFeaturesL&#x3D;data
+  // console.log(data)})
+ 
+  //  this.authServce.hideforInfo.subscribe(data&#x3D;&gt;{
+  //    this.showFeaturesL&#x3D;data;
+  //    this.showSCD&#x3D;data
+  //  })
+ 
+  //   this.showDash &#x3D;&lt;boolean&gt;sessionStorage.getItem(&quot;hideforsir&quot;)
+ 
+  if(sessionStorage.getItem(&#x27;hideforsir&#x27;)&#x3D;&#x3D;&quot;false&quot;){
+      this.showSCD&#x3D;false
+      this.showFeaturesL&#x3D;false
+ 
+  }
+  else{
+    this.showSCD&#x3D;true
+      this.showFeaturesL&#x3D;true
+ 
+  }
+ 
+  }
+ 
+  
+ 
+  // onClick(event: Event): void {
+  //   event.preventDefault();
+  //   event.stopPropagation();
+  //   this.clicked &#x3D; true;
+  // }
+  // ToggleSubmenus(SubmenuId:string, parentId:string){
+  //   var submenu &#x3D;  document.getElementById(SubmenuId);
+  //   var parent &#x3D;  document.getElementById(parentId);
+  //   this.navbarOpen &#x3D; !this.navbarOpen;
+  //   if(submenu !&#x3D; null){
+  //     submenu.classList.toggle(&#x27;show&#x27;)
+  //   }if(parent!&#x3D;null){
+  //     parent.classList.toggle(&#x27;collapsed&#x27;)
+  //     if(parent.getAttribute(&#x27;aria-expanded&#x27;)&#x3D;&#x3D;&#x27;true&#x27;){
+  //       parent.setAttribute(&#x27;aria-expanded&#x27;,&#x27;false&#x27;)
+  //     }else{
+  //       parent.setAttribute(&#x27;aria-expanded&#x27;,&#x27;true&#x27;)
+  //     }
+  //   }
+  // }
+ 
+  // @HostListener(&#x27;document: click&#x27;, [&#x27;event&#x27;])
+  // private clickedOutside(event:Event): void {
+  //   // if (this.clicked) {
+  //     // this._el.nativeElement.querySelector(&#x27;.submenu&#x27;).classList.toggle(&#x27;show&#x27;);
+  //     // console.log(event)
+  //     // document.getElementsByClassName(&#x27;submenu&#x27;)[0].classList.add(&#x27;show&#x27;);
+  //   // }
+  // }
+  userToggle(){
+    this.UserToggle&#x3D;!this.UserToggle
+  }
+ 
+  featuresToggle(){
+    this.showFeature&#x3D;!this.showFeature
+  }
+  settings(){
+ this.Settings &#x3D; !this.Settings
+  }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;nav-left-sidebar sidebar-dark&quot; style &#x3D;&quot;margin-left: 0.3%;&quot;&gt;
+  &lt;div class&#x3D;&quot;menu-list&quot;&gt;
+      &lt;nav class&#x3D;&quot;navbar navbar-expand-lg navbar-light&quot;&gt;
+              &lt;ul class&#x3D;&quot;navbar-nav flex-column&quot; &gt;
+        
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/traficCount&quot;&gt;Traffic Count&lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/comparing-week&quot;&gt;Weekly Analysis &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/comparing-month&quot;&gt;Monthly Analysis &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/comparing-year&quot;&gt;Yearly Analysis &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/interval&quot;&gt;Interval Analysis &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/yearly&quot;&gt;Yearly Data Analysis &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;li class&#x3D;&quot;nav-item&quot;&gt;
+                  &lt;a class&#x3D;&quot;nav-link&quot; routerLink&#x3D;&quot;/app/quarterly&quot;&gt;Quarterly Data Analysis &lt;/a&gt;
+                &lt;/li&gt;
+      
+                 
+              &lt;/ul&gt;
+
+      &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./menubar.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="nav-left-sidebar sidebar-dark" style ="margin-left: 0.3%;">  <div class="menu-list">      <nav class="navbar navbar-expand-lg navbar-light">              <ul class="navbar-nav flex-column" >                        <li class="nav-item">                  <a class="nav-link" routerLink="/app/traficCount">Traffic Count</a>                </li>                <li class="nav-item">                  <a class="nav-link" routerLink="/app/comparing-week">Weekly Analysis </a>                </li>                <li class="nav-item">                  <a class="nav-link" routerLink="/app/comparing-month">Monthly Analysis </a>                </li>                <li class="nav-item">                  <a class="nav-link" routerLink="/app/comparing-year">Yearly Analysis </a>                </li>                <li class="nav-item">                  <a class="nav-link" routerLink="/app/interval">Interval Analysis </a>                </li>                <li class="nav-item">                  <a class="nav-link" routerLink="/app/yearly">Yearly Data Analysis </a>                </li>                <li class="nav-item">                  <a class="nav-link" routerLink="/app/quarterly">Quarterly Data Analysis </a>                </li>                                     </ul>      </nav>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AnalysisComponent', 'selector': 'app-analysis'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CompareMonthlyComponent', 'selector': 'app-compare-monthly'},{'name': 'CompareWeeklyComponent', 'selector': 'app-compare-weekly'},{'name': 'CompareYearlyComponent', 'selector': 'app-compare-yearly'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LogInComponent', 'selector': 'app-log-in'},{'name': 'LoginHeaderComponent', 'selector': 'app-login-header'},{'name': 'MenubarComponent', 'selector': 'app-menubar'},{'name': 'PageSettingComponent', 'selector': 'app-page-setting'},{'name': 'PerimeterComponent', 'selector': 'app-perimeter'},{'name': 'QuarterlyComponent', 'selector': 'app-quarterly'},{'name': 'TrafficCountComponent', 'selector': 'app-traffic-count'},{'name': 'UserManagementComponent', 'selector': 'app-user-management'},{'name': 'YearlyComponent', 'selector': 'app-yearly'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'MenubarComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MenubarComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

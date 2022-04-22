@@ -1,0 +1,221 @@
+button.calendar {
+    width: 2.75rem;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAYAAAAEN20fAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7ZQxToVAEIY/YCHGxN6XGOIpnpaEsBSeQC9ArZbm9TZ6ADyBNzAhQGGl8Riv4BLAWAgmkpBYkH1b8FWT2WK/zJ8ZJ4qiI6XUI3ANnGKWBnht2/ZBDRK3hgVGNsCd7/ui+JkEIrKtqurLpEWaphd933+IyI3LEIdpCYCiKD6HcuOa/nwOa0ScJEnk0BJg0UTUWJRl6RxCYEzEmomsIlPU3IPW+grIAbquy+q6fluy/28RIBeRMwDXdXMgXLj/B2uimRXpui4D9sBeRLKl+1N+L+t6RwbWrZliTTTr1oxYtzVWiTQAcRxvTX+eJMnlUDaO1vpZRO5NS0x48sIwfPc87xg4B04MCzQi8hIEwe4bl1DnFMCN2zsAAAAASUVORK5CYII=) !important;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center;
+}
+.image{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 110px;
+    width: 230px;
+    
+    object-fit:contain;
+}
+
+ ::ng-deep .modalViol {
+     left: 390px;    
+     top: 10px;
+     animation: 3s infinite beatHeart; 
+     transform-origin:center;
+     
+     /* border:1px solid rgb(99, 9, 9) */
+
+  }
+
+  ::ng-deep .modalViol:hover {
+    left: 390px;    
+    top: 10px;
+    animation: .9s infinite; 
+    transform-origin: center;
+    
+    
+
+ }
+ table.table-striped tbody tr td:hover{
+    /* border: 1px solid black; */
+    font-weight: bold;
+
+    border-bottom: 1px solid #1b97aa; ;
+}
+/* table.table-striped thead tbody tr td{
+  font-weight: bold;
+  padding: 4px;
+
+  border-bottom: 2px solid rgb(247, 63, 134) ;
+} */
+ 
+/* table.table-striped tbody tr:nth-child(odd){
+
+  background-color: rgba(252, 186, 219, 0.336);
+
+}
+
+table.table-striped tbody tr:nth-child(even){
+
+  background-color: rgba(94, 15, 54, 0.021);
+
+} */
+
+/* table.table-striped thead tr th{
+   border-bottom: 1px;
+  border-color: #1b97aa;
+  color:rgb(8, 8, 8)
+
+} */
+
+
+
+/* table.table-striped tbody tr:nth-child(odd){
+
+  background-color: rgba(27, 164, 185, 0.075);
+
+}
+
+table.table-striped tbody tr:nth-child(even){
+
+  background-color: #c8d8e4;
+
+}  */
+
+ /* table.table-striped thead tr th{
+   
+  background-color:#245968;
+  color:white
+
+} */
+
+/* .btn.btn-custome{
+    border-color:rgba(16, 10, 104, 0.938) ;
+    background-color:rgb(247, 246, 250) ;
+
+  color:black
+}
+
+.btn.btn-custome:hover{
+    border-color:rgba(16, 10, 104, 0.938) ;
+    background-color:rgba(186, 185, 189, 0.507) ;
+  color:black
+} */
+
+button.btn.btn-custome:active{
+    border-color:rgba(16, 10, 104, 0.938) ;
+    background-color:rgba(186, 185, 189, 0.733) ;
+  color:black
+}
+
+
+table.table-striped{
+  /* font-size:15px; */
+  max-width: 100%;
+  /* overflow: scroll; */
+}
+
+/* .card{
+  overflow-x: auto;
+} */
+
+
+  .violImage{
+    width: 360px;
+    height: 250px;
+     object-fit:fill;
+  }
+
+  ::ng-deep .custome{
+    /* margin-block-start: 70px; */
+    width:630px;
+    padding:0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    left: 300px;
+    text-align: center;
+  
+
+}
+
+  ::ng-deep .ngxImageZoomContainer > img{
+    max-height: 600px;
+    width: 600px;
+    object-fit: fill;
+    margin-left: 0px;
+
+  }
+
+/* input.ng-invalid.ng-touched{
+    border-color: rgb(245, 172, 172);
+} */
+
+ngb-pagination ::ng-deep ul > li:not(.active) > a {
+  background-color: rgb(245, 248, 248) !important;
+  color:black
+}
+
+ngb-pagination ::ng-deep ul > li.active > a {
+  background-color: #1b97aa !important;
+}
+
+.bg-custom{
+    background-color:rgb(255, 255, 255);
+    
+}
+.bg-gray{
+    background-color:rgb(221, 156, 70);
+}
+
+.text-green{
+  color:#1b97aa;
+}
+
+.chartBox{
+  height: 200px;
+}
+canvas{
+  image-rendering: optimizeQuality;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+/* div.container-fluid.dashboard-content{
+  width:90vw;
+  overflow: auto;
+
+  /* overflow-wrap: break-word; */
+
+  /* .live {
+    width: 120px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.live::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a51515;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left:50%;
+    }
+
+    0% {
+        left: 0%;
+    }
+} */

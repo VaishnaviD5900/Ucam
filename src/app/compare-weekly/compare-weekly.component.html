@@ -1,0 +1,76 @@
+<div class="container-fluid dashboard-content">
+    <div class="page-header">
+        <h3> <b>Weekly Analysis</b></h3>
+    </div>
+  
+    <div class="row">
+        
+        <div class="col-xl-3 col-lg-3 col-md-3 col-xs-3" *ngIf="tempdata.length>0">
+            <div class="" >
+                <button type="button" class="btn btn-custome" (click)="downloadExcel()"><span *ngIf="!excelSheet.excelLoader">
+                        <fa-icon icon="download" class="mr-2"></fa-icon>
+                    </span><span *ngIf="excelSheet.excelLoader" class="spinner-border spinner-border-sm mr-2" role="status"
+                        aria-hidden="true"></span>Excel</button>&nbsp;
+                <button type="button" class="btn btn-custome" (click)="downloadPdf()"><span *ngIf="!pdfService.pdfLoader">
+                        <fa-icon icon="download" class="mr-2"></fa-icon>
+                    </span><span *ngIf="pdfService.pdfLoader" class="spinner-border spinner-border-sm mr-2" role="status"
+                        aria-hidden="true"></span>Pdf</button>
+            </div>
+        </div>
+    
+    </div>
+    <br />
+    <br />
+   
+        <div class="col-xl-12 col-xs-12 col-md-12 col-lg-12">
+            <div class="mx-auto card card-body">
+               
+                <h4 class="mx-auto mt-2 mb-3 text-muted">Current Week vs Previous Week</h4>
+                <div class="">
+                <canvas *ngIf="LineChartData" id="lineChart" #lineChart baseChart [datasets]="CompareWeeklyChart.arrayDataSet" [labels]="CompareWeeklyChart.labels" [plugins]="CompareWeeklyChart.plugins" [colors]="CompareWeeklyChart.colors"
+                [chartType]="CompareWeeklyChart.type" [options]=CompareWeeklyChart.Options [legend]="CompareWeeklyChart.legend" height="100px">
+               </canvas>
+    
+            </div>
+            
+          </div>
+       </div>
+
+  <div class="col-xl-12 col-xs-12 col-md-12 col-lg-12">
+    <div class="mx-auto card card-body">
+       
+        <h4 class="mx-auto mt-2 mb-3 text-muted">Entry Count</h4>
+        <div class="">
+        <canvas *ngIf="LineChartData" id="lineChart" #lineChart baseChart [datasets]="entryChart.arrayDataSet" [labels]="entryChart.labels" [plugins]="entryChart.plugins" [colors]="entryChart.colors"
+        [chartType]="entryChart.type" [options]=entryChart.Options [legend]="entryChart.legend" height="100px">
+       </canvas>
+
+    </div>
+    
+    </div>
+</div>
+
+<div class="col-xl-12 col-xs-12 col-md-12 col-lg-12">
+    <div class="mx-auto card card-body">
+       
+        <h4 class="mx-auto mt-2 mb-3 text-muted">Exit Count</h4>
+        <div class="">
+        <canvas *ngIf="LineChartData" id="lineChart" #lineChart baseChart [datasets]="exitChart.arrayDataSet" [labels]="exitChart.labels" [plugins]="exitChart.plugins" [colors]="exitChart.colors"
+        [chartType]="exitChart.type" [options]=exitChart.Options [legend]="exitChart.legend" height="100px">
+       </canvas>
+
+    </div>
+    
+    </div>
+</div>
+
+       
+    <!-- <div class="col-xl-12 col-xs-1 col-lg-1 col-md-1">
+        <a routerLink="/app/comparing-year" class="btn btn-custome float-left" >Back</a>
+        <a routerLink="/app/comparing-month" class="btn btn-custome float-right" >Next</a>
+    </div> -->
+
+</div>
+<div class="mx-auto">
+    <app-loader></app-loader> 
+</div>

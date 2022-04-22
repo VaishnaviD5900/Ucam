@@ -1,0 +1,3371 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>docketrun-web-app-new documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">docketrun-web-app-new documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  PerimeterComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/Features/perimeter/perimeter.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+                    <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-perimeter</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./perimeter.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./perimeter.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#API" >API</a>
+                            </li>
+                            <li>
+                                <a href="#closeModal" >closeModal</a>
+                            </li>
+                            <li>
+                                <a href="#closeResult" >closeResult</a>
+                            </li>
+                            <li>
+                                <a href="#collectionSize" >collectionSize</a>
+                            </li>
+                            <li>
+                                <a href="#currentViol" >currentViol</a>
+                            </li>
+                            <li>
+                                <a href="#data" >data</a>
+                            </li>
+                            <li>
+                                <a href="#dataForExcel" >dataForExcel</a>
+                            </li>
+                            <li>
+                                <a href="#dataForPdf" >dataForPdf</a>
+                            </li>
+                            <li>
+                                <a href="#ExcelData" >ExcelData</a>
+                            </li>
+                            <li>
+                                <a href="#excelLoader" >excelLoader</a>
+                            </li>
+                            <li>
+                                <a href="#filterOut" >filterOut</a>
+                            </li>
+                            <li>
+                                <a href="#from" >from</a>
+                            </li>
+                            <li>
+                                <a href="#fromDate" >fromDate</a>
+                            </li>
+                            <li>
+                                <a href="#images" >images</a>
+                            </li>
+                            <li>
+                                <a href="#imageUrl" >imageUrl</a>
+                            </li>
+                            <li>
+                                <a href="#imgheight" >imgheight</a>
+                            </li>
+                            <li>
+                                <a href="#imgWidth" >imgWidth</a>
+                            </li>
+                            <li>
+                                <a href="#interval" >interval</a>
+                            </li>
+                            <li>
+                                <a href="#isdatewise" >isdatewise</a>
+                            </li>
+                            <li>
+                                <a href="#loader2" >loader2</a>
+                            </li>
+                            <li>
+                                <a href="#loading" >loading</a>
+                            </li>
+                            <li>
+                                <a href="#page" >page</a>
+                            </li>
+                            <li>
+                                <a href="#pageSize" >pageSize</a>
+                            </li>
+                            <li>
+                                <a href="#pdfLoader" >pdfLoader</a>
+                            </li>
+                            <li>
+                                <a href="#show1" >show1</a>
+                            </li>
+                            <li>
+                                <a href="#show2" >show2</a>
+                            </li>
+                            <li>
+                                <a href="#show3" >show3</a>
+                            </li>
+                            <li>
+                                <a href="#tempdata" >tempdata</a>
+                            </li>
+                            <li>
+                                <a href="#To" >To</a>
+                            </li>
+                            <li>
+                                <a href="#toDate" >toDate</a>
+                            </li>
+                            <li>
+                                <a href="#total" >total</a>
+                            </li>
+                            <li>
+                                <a href="#updatedLen" >updatedLen</a>
+                            </li>
+                            <li>
+                                <a href="#updateTO" >updateTO</a>
+                            </li>
+                            <li>
+                                <a href="#Violation" >Violation</a>
+                            </li>
+                            <li>
+                                <a href="#violdata" >violdata</a>
+                            </li>
+                            <li>
+                                <a href="#violData" >violData</a>
+                            </li>
+                            <li>
+                                <a href="#violLength" >violLength</a>
+                            </li>
+                            <li>
+                                <a href="#zoom" >zoom</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#BackToToday" >BackToToday</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dataread" >dataread</a>
+                            </li>
+                            <li>
+                                <a href="#downloadExcel" >downloadExcel</a>
+                            </li>
+                            <li>
+                                <a href="#downloadPdf" >downloadPdf</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#getDismissReason" >getDismissReason</a>
+                            </li>
+                            <li>
+                                <a href="#matches" >matches</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit" >ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestroy" >ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openImage" >openImage</a>
+                            </li>
+                            <li>
+                                <a href="#showViol" >showViol</a>
+                            </li>
+                            <li>
+                                <a href="#sliceVD" >sliceVD</a>
+                            </li>
+                            <li>
+                                <a href="#Submit" >Submit</a>
+                            </li>
+                            <li>
+                                <a href="#toBase64" >toBase64</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(modalService: NgbModal, http: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>, excelSheet: <a href="../injectables/ExcelsheetService.html" target="_self">ExcelsheetService</a>, pdfService: <a href="../injectables/PdfService.html" target="_self">PdfService</a>, webServer: <a href="../injectables/WebServerService.html" target="_self">WebServerService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="79" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:79</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>modalService</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgbModal</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>http</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>excelSheet</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ExcelsheetService.html" target="_self" >ExcelsheetService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>pdfService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/PdfService.html" target="_self" >PdfService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>webServer</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/WebServerService.html" target="_self" >WebServerService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="BackToToday"></a>
+                    <span class="name">
+                        <span ><b>BackToToday</b></span>
+                        <a href="#BackToToday"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>BackToToday()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="473"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:473</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataread"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>dataread</b></span>
+                        <a href="#dataread"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>dataread()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="194"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:194</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="downloadExcel"></a>
+                    <span class="name">
+                        <span ><b>downloadExcel</b></span>
+                        <a href="#downloadExcel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>downloadExcel()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="479"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:479</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="downloadPdf"></a>
+                    <span class="name">
+                        <span ><b>downloadPdf</b></span>
+                        <a href="#downloadPdf"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>downloadPdf()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="537"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:537</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDismissReason"></a>
+                    <span class="name">
+                        <span class="modifier">Private</span>
+                        <span ><b>getDismissReason</b></span>
+                        <a href="#getDismissReason"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getDismissReason(reason: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="332"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:332</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>reason</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="matches"></a>
+                    <span class="name">
+                        <span ><b>matches</b></span>
+                        <a href="#matches"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>matches(term: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="353"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:353</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>term</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewInit</b></span>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="182"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:182</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestroy"></a>
+                    <span class="name">
+                        <span ><b>ngOnDestroy</b></span>
+                        <a href="#ngOnDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="613"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:613</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="100"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:100</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openImage"></a>
+                    <span class="name">
+                        <span ><b>openImage</b></span>
+                        <a href="#openImage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openImage(imageUrl: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, modal: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="304"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:304</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>imageUrl</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>modal</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showViol"></a>
+                    <span class="name">
+                        <span ><b>showViol</b></span>
+                        <a href="#showViol"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>showViol(modal: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, currentViol: <a href="../interfaces/violation.html" target="_self">violation</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="318"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:318</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>modal</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>currentViol</td>
+                                    <td>
+                                                <code><a href="../interfaces/violation.html" target="_self" >violation</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sliceVD"></a>
+                    <span class="name">
+                        <span ><b>sliceVD</b></span>
+                        <a href="#sliceVD"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sliceVD()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="370"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:370</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Submit"></a>
+                    <span class="name">
+                        <span ><b>Submit</b></span>
+                        <a href="#Submit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>Submit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="388"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:388</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toBase64"></a>
+                    <span class="name">
+                        <span ><b>toBase64</b></span>
+                        <a href="#toBase64"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toBase64(url, callback)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="596"
+                            class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:596</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>url</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>callback</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="API"></a>
+                    <span class="name">
+                        <span ><b>API</b></span>
+                        <a href="#API"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="75" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:75</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="closeModal"></a>
+                    <span class="name">
+                        <span ><b>closeModal</b></span>
+                        <a href="#closeModal"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:57</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="closeResult"></a>
+                    <span class="name">
+                        <span ><b>closeResult</b></span>
+                        <a href="#closeResult"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:48</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="collectionSize"></a>
+                    <span class="name">
+                        <span ><b>collectionSize</b></span>
+                        <a href="#collectionSize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:52</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="currentViol"></a>
+                    <span class="name">
+                        <span ><b>currentViol</b></span>
+                        <a href="#currentViol"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/violation.html" target="_self" >violation</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:66</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="data"></a>
+                    <span class="name">
+                        <span ><b>data</b></span>
+                        <a href="#data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/violation.html" target="_self" >violation[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataForExcel"></a>
+                    <span class="name">
+                        <span ><b>dataForExcel</b></span>
+                        <a href="#dataForExcel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:58</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataForPdf"></a>
+                    <span class="name">
+                        <span ><b>dataForPdf</b></span>
+                        <a href="#dataForPdf"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:67</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ExcelData"></a>
+                    <span class="name">
+                        <span ><b>ExcelData</b></span>
+                        <a href="#ExcelData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:60</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="excelLoader"></a>
+                    <span class="name">
+                        <span ><b>excelLoader</b></span>
+                        <a href="#excelLoader"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:62</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterOut"></a>
+                    <span class="name">
+                        <span ><b>filterOut</b></span>
+                        <a href="#filterOut"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormControl" target="_blank" >FormControl</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:56</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="from"></a>
+                    <span class="name">
+                        <span ><b>from</b></span>
+                        <a href="#from"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>NgbDate</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:41</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fromDate"></a>
+                    <span class="name">
+                        <span ><b>fromDate</b></span>
+                        <a href="#fromDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl(Validators.required)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:71</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="images"></a>
+                    <span class="name">
+                        <span ><b>images</b></span>
+                        <a href="#images"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:59</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="imageUrl"></a>
+                    <span class="name">
+                        <span ><b>imageUrl</b></span>
+                        <a href="#imageUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="imgheight"></a>
+                    <span class="name">
+                        <span ><b>imgheight</b></span>
+                        <a href="#imgheight"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>300</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="imgWidth"></a>
+                    <span class="name">
+                        <span ><b>imgWidth</b></span>
+                        <a href="#imgWidth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>400</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="interval"></a>
+                    <span class="name">
+                        <span ><b>interval</b></span>
+                        <a href="#interval"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:76</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isdatewise"></a>
+                    <span class="name">
+                        <span ><b>isdatewise</b></span>
+                        <a href="#isdatewise"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="74" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:74</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loader2"></a>
+                    <span class="name">
+                        <span ><b>loader2</b></span>
+                        <a href="#loader2"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="77" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:77</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loading"></a>
+                    <span class="name">
+                        <span ><b>loading</b></span>
+                        <a href="#loading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:55</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="page"></a>
+                    <span class="name">
+                        <span ><b>page</b></span>
+                        <a href="#page"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>1</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:50</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageSize"></a>
+                    <span class="name">
+                        <span ><b>pageSize</b></span>
+                        <a href="#pageSize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>4</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:51</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pdfLoader"></a>
+                    <span class="name">
+                        <span ><b>pdfLoader</b></span>
+                        <a href="#pdfLoader"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:61</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="show1"></a>
+                    <span class="name">
+                        <span ><b>show1</b></span>
+                        <a href="#show1"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>2</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:68</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="show2"></a>
+                    <span class="name">
+                        <span ><b>show2</b></span>
+                        <a href="#show2"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>4</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:69</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="show3"></a>
+                    <span class="name">
+                        <span ><b>show3</b></span>
+                        <a href="#show3"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>6</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="70" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:70</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="tempdata"></a>
+                    <span class="name">
+                        <span ><b>tempdata</b></span>
+                        <a href="#tempdata"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:49</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="To"></a>
+                    <span class="name">
+                        <span ><b>To</b></span>
+                        <a href="#To"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>NgbDate</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toDate"></a>
+                    <span class="name">
+                        <span ><b>toDate</b></span>
+                        <a href="#toDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl(Validators.required)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="72" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:72</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="total"></a>
+                    <span class="name">
+                        <span ><b>total</b></span>
+                        <a href="#total"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Observable&lt;number&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>of(0)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:53</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updatedLen"></a>
+                    <span class="name">
+                        <span ><b>updatedLen</b></span>
+                        <a href="#updatedLen"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateTO"></a>
+                    <span class="name">
+                        <span ><b>updateTO</b></span>
+                        <a href="#updateTO"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:73</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Violation"></a>
+                    <span class="name">
+                        <span ><b>Violation</b></span>
+                        <a href="#Violation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>TemplateRef&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(&#x27;dangerAlert&#x27;)<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="79" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:79</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="violdata"></a>
+                    <span class="name">
+                        <span ><b>violdata</b></span>
+                        <a href="#violdata"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:65</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="violData"></a>
+                    <span class="name">
+                        <span ><b>violData</b></span>
+                        <a href="#violData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Observable&lt;any[]&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>of([])</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:54</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="violLength"></a>
+                    <span class="name">
+                        <span ><b>violLength</b></span>
+                        <a href="#violLength"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:63</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="zoom"></a>
+                    <span class="name">
+                        <span ><b>zoom</b></span>
+                        <a href="#zoom"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>100</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/Features/perimeter/perimeter.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { HttpClient } from &#x27;@angular/common/http&#x27;;
+import { Component, OnInit, ViewChild, TemplateRef, ElementRef, AfterViewInit, OnDestroy } from &#x27;@angular/core&#x27;;
+import { FormControl, Validators } from &#x27;@angular/forms&#x27;;
+import { ModalDismissReasons, NgbDate, NgbModal, NgbModalRef } from &#x27;@ng-bootstrap/ng-bootstrap&#x27;;
+import { interval, Observable, of, TimeInterval, timer } from &#x27;rxjs&#x27;;
+import { startWith, switchMap, timeout } from &#x27;rxjs/operators&#x27;;
+import { ExcelsheetService } from &#x27;src/app/services/excelsheet.service&#x27;;
+import { PdfService } from &#x27;src/app/services/pdf.service&#x27;;
+import { WebServerService } from &#x27;src/app/services/web-server.service&#x27;;
+import { environment } from &#x27;src/environments/environment&#x27;;
+
+var data &#x3D; [{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;south2&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;north2&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;south3&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;north3&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;south4&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;north4&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;south5&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;north5&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;south6&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;north6&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; },
+{ imageURl: &#x27;https://images.hindustantimes.com/img/2021/09/13/550x309/6d190f42-14a3-11ec-a13e-d4a68f9db710_1631553930291.jpg&#x27;, camerName: &#x27;south7&#x27;, timeStamp: new Date().toLocaleString(), cameraid: &#x27;cam23&#x27; }
+]
+
+export interface violation {
+  cameraid?: string,
+  date?: string,
+  imagename?: string,
+  detected_timestamp?:Date[&quot;toLocaleString&quot;],
+  exit_timestamp?:Date[&quot;toLocaleString&quot;],
+  roi_violation_name?:&quot;string&quot;
+
+}
+
+@Component({
+  selector: &#x27;app-perimeter&#x27;,
+  templateUrl: &#x27;./perimeter.component.html&#x27;,
+  styleUrls: [&#x27;./perimeter.component.css&#x27;]
+})
+export class PerimeterComponent implements OnInit, AfterViewInit, OnDestroy {
+  from: NgbDate
+  To: NgbDate
+  data: violation[] &#x3D; []
+  zoom &#x3D; 100
+  imageUrl: string
+  imgWidth: number &#x3D; 400
+  imgheight: number &#x3D; 300
+  closeResult: string;
+  tempdata: any[] &#x3D; [];
+  page: number &#x3D; 1
+  pageSize: number &#x3D; 4
+  collectionSize: number
+  total: Observable&lt;number&gt; &#x3D; of(0)
+  violData: Observable&lt;any[]&gt; &#x3D; of([])
+  loading: boolean &#x3D; false
+  filterOut: FormControl &#x3D; new FormControl()
+  closeModal: any
+  dataForExcel: any[] &#x3D; []
+  images: any[] &#x3D; []
+  ExcelData: any
+  pdfLoader: boolean &#x3D; false
+  excelLoader: boolean &#x3D; false
+  violLength: number &#x3D; 0
+  updatedLen: number &#x3D; 0
+  violdata: any[] &#x3D; [];
+  currentViol: violation
+  dataForPdf:any[]
+  show1:number&#x3D;2
+  show2:number&#x3D;4
+  show3:number&#x3D;6
+  fromDate &#x3D; new FormControl(Validators.required)
+  toDate &#x3D; new FormControl(Validators.required)
+  updateTO:number
+  isdatewise:boolean&#x3D;false
+  API:any
+  interval:any
+  loader2:boolean&#x3D;false
+
+  @ViewChild(&#x27;dangerAlert&#x27;) Violation: TemplateRef&lt;any&gt;;
+
+
+
+  constructor(private modalService: NgbModal, private http: HttpClient, private excelSheet: ExcelsheetService, private pdfService: PdfService, private webServer: WebServerService) {
+  this.API&#x3D;webServer.IP
+
+  console.log(this.API)
+
+    this.filterOut.valueChanges.pipe((startWith(&#x27;&#x27;),
+      switchMap((text) &#x3D;&gt; this.matches(text)
+      )
+    )).subscribe(result &#x3D;&gt; {
+      this.tempdata &#x3D; result
+      this.violData &#x3D; of(result)
+      this.sliceVD()
+    }
+    )
+
+  }
+
+  ngOnInit(): void {
+    this.violLength &#x3D; Number(localStorage.getItem(&quot;updatedLen&quot;))
+    console.log(Number(localStorage.getItem(&quot;updatedLen&quot;)))
+    console.log(this.violLength)
+   
+    
+     this.webServer.JSWViolData().subscribe((Rdata: any) &#x3D;&gt; {
+     if (Rdata.success) {
+        data &#x3D; Rdata.message
+        console.log(Rdata.message)
+       this.tempdata &#x3D; Rdata.message
+       if(this.tempdata.length&gt;30){
+        if(this.pageSize&lt;30){
+          this.pageSize&#x3D;30
+        this.show1&#x3D;15
+        this.show2&#x3D;30
+        this.show3&#x3D;40
+        }
+        else{
+          this.pageSize&#x3D;this.pageSize
+        }
+      }
+      if(this.tempdata.length&gt;&#x3D;400){
+        if(this.pageSize&lt;60){
+        this.pageSize&#x3D;60
+        this.show1&#x3D;30
+        this.show2&#x3D;50
+        this.show3&#x3D;75
+        }
+        else{
+          this.pageSize&#x3D;this.pageSize
+        }
+      }
+        if(this.tempdata.length&gt;&#x3D;1000){
+          if(this.pageSize&lt;90){
+          this.pageSize&#x3D;100
+          this.show1&#x3D;70
+          this.show2&#x3D;100
+          this.show3&#x3D;150
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+      }
+
+
+      if(this.tempdata.length&gt;&#x3D;2000){
+        if(this.pageSize&lt;150){
+        this.pageSize&#x3D;200
+        this.show1&#x3D;200
+        this.show2&#x3D;300
+        this.show3&#x3D;400
+        }
+        else{
+          this.pageSize&#x3D;this.pageSize
+        }
+    }
+
+    if(this.tempdata.length&gt;&#x3D;3000){
+      if(this.pageSize&lt;250){
+      this.pageSize&#x3D;300
+      this.show1&#x3D;300
+      this.show2&#x3D;400
+      this.show3&#x3D; 500
+      }
+      else{
+        this.pageSize&#x3D;this.pageSize
+      }
+  }
+      this.total &#x3D; of(this.tempdata.length)
+      this.violData&#x3D;of(Rdata.message)
+
+       this.sliceVD()
+
+     }
+   })
+
+
+  }
+
+
+  //pop up for violation 
+  ngAfterViewInit() {
+    console.log(this.webServer.IP)
+    // this.dataread()
+
+
+  }
+
+
+
+
+
+
+public dataread(){
+  
+ this.interval&#x3D; setInterval(() &#x3D;&gt; {
+    if (Number(localStorage.getItem(&quot;updatedLen&quot;))) {
+      this.violLength &#x3D; Number(localStorage.getItem(&quot;updatedLen&quot;))
+    }
+    this.webServer.JSWViolData().subscribe((Rdata: any) &#x3D;&gt; {
+      if (Rdata.success) {
+        //this.violdata &#x3D; []
+       var cviol&#x3D;Rdata.message
+        
+       this.total &#x3D; of(this.violdata.length)
+       this.loader2&#x3D;false
+       this.isdatewise&#x3D;false
+          this.violData &#x3D; of(Rdata.message)
+       
+        data &#x3D; Rdata.message
+      //  console.log(Rdata.message)
+       var data &#x3D; Rdata.message
+        this.violdata&#x3D;Rdata.message
+       this.tempdata&#x3D;this.violdata
+        if(this.tempdata.length&gt;30){
+          if(this.pageSize&lt;30){
+            this.pageSize&#x3D;30
+          this.show1&#x3D;15
+          this.show2&#x3D;30
+          this.show3&#x3D;40
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+        }
+        if(this.tempdata.length&gt;&#x3D;400){
+          if(this.pageSize&lt;60){
+          this.pageSize&#x3D;60
+          this.show1&#x3D;60
+          this.show2&#x3D;70
+          this.show3&#x3D;80
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+        }
+          if(this.tempdata.length&gt;&#x3D;1000){
+            if(this.pageSize&lt;90){
+            this.pageSize&#x3D;100
+            this.show1&#x3D;70
+            this.show2&#x3D;100
+            this.show3&#x3D;150
+            }
+            else{
+              this.pageSize&#x3D;this.pageSize
+            }
+        }
+
+
+        if(this.tempdata.length&gt;&#x3D;2000){
+          if(this.pageSize&lt;150){
+          this.pageSize&#x3D;200
+          this.show1&#x3D;200
+          this.show2&#x3D;300
+          this.show3&#x3D;400
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+      }
+
+      if(this.tempdata.length&gt;&#x3D;3000){
+        if(this.pageSize&lt;300){
+        this.pageSize&#x3D;300
+        this.show1&#x3D;300
+        this.show2&#x3D;350
+        this.show3&#x3D;400
+        }
+        else{
+          this.pageSize&#x3D;this.pageSize
+        }
+      }
+       
+          //console.log(this.violLength)
+        localStorage.setItem(&quot;updatedLen&quot;, JSON.stringify(cviol.length))
+        console.log(Number(localStorage.getItem(&quot;updatedLen&quot;)))
+
+        //this.tempdata &#x3D; data
+        this.sliceVD()
+         if(Number(localStorage.getItem(&quot;updatedLen&quot;))&gt;this.violLength){
+           this.violdata&#x3D;Rdata.message
+           var diff&#x3D;(Number(localStorage.getItem(&quot;updatedLen&quot;))-this.violLength);
+            console.log(diff)
+        for (let i &#x3D; 0; i &lt; diff; i++) {
+          
+          //this.violdata.push(data[i])
+         // console.log(this.violdata[i])
+          this.showViol(this.Violation, this.violdata[i])
+           }
+           data&#x3D;this.violdata
+         // console.log(this.violdata)
+          this.tempdata &#x3D; this.violdata
+          
+          this.sliceVD()
+        }
+      }
+
+    })
+  }, 1000)
+}
+
+
+  //modal to view the image
+  openImage(imageUrl: string, modal: any) {
+
+    this.imageUrl &#x3D;this.API+&#x27;/image/&#x27;+ imageUrl
+    // console.log(this.imageUrl)
+    this.modalService.open(modal, { size: &#x27;lg&#x27;, windowClass: &#x27;custome&#x27;, centered: true }).result.then((result) &#x3D;&gt; {
+      this.closeResult &#x3D; &#x60;Closed with: ${result}&#x60;;
+    }, (reason) &#x3D;&gt; {
+      this.closeResult &#x3D; &#x60;Dismissed ${this.getDismissReason(reason)}&#x60;;
+    });
+
+  }
+
+
+  //MODAL FOR VIOLATION
+  showViol(modal: any, currentViol: violation) {
+    this.updateTO&#x3D;this.webServer.timeout
+    this.currentViol &#x3D; currentViol
+    var modal1 &#x3D; this.modalService.open(modal, { backdrop: false, windowClass: &#x27;modalViol&#x27;, centered: true });
+    setTimeout(() &#x3D;&gt; {
+      modal1.dismiss()
+
+    }, this.updateTO);
+
+  }
+
+
+
+
+  private getDismissReason(reason: any): string {
+    if (reason &#x3D;&#x3D;&#x3D; ModalDismissReasons.ESC) {
+      this.zoom &#x3D; 100
+      this.imgWidth &#x3D; 400
+      this.imgheight &#x3D; 300
+
+      return &#x27;by pressing ESC&#x27;;
+    } else if (reason &#x3D;&#x3D;&#x3D; ModalDismissReasons.BACKDROP_CLICK) {
+      this.zoom &#x3D; 100
+      this.imgWidth &#x3D; 400
+      this.imgheight &#x3D; 300
+      return &#x27;by clicking on a backdrop&#x27;;
+    } else {
+      this.imgWidth &#x3D; 400
+      this.imgheight &#x3D; 300
+      this.zoom &#x3D; 100
+      return &#x60;with: ${reason}&#x60;;
+    }
+
+  }
+
+  matches(term: string): Observable&lt;any[]&gt; {
+    var resultVD &#x3D; data.filter(viol &#x3D;&gt; {
+      return (&lt;String&gt;viol.cameraid).includes(term)
+    })
+
+    this.tempdata &#x3D; resultVD
+    const length &#x3D; resultVD.length;
+    //this.total&#x3D;of(length)
+    // resultDevices&#x3D;(resultDevices.map((div:any, SINo:number) &#x3D;&gt; ({id: SINo + 1, ...div})).slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize));
+    //  this.total&#x3D;of(resultDevices.length)
+    this.sliceVD()
+
+
+    return of(resultVD);
+
+
+  }
+  sliceVD() {
+
+    // this.deviceResult.subscribe(data &#x3D;&gt; {
+    //   this.temp &#x3D; data
+    // })
+    // if (!this.filterOut.value) {
+    //   this.tempdata &#x3D; this.violdata
+    // }
+
+    this.total &#x3D; of((this.tempdata.slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize)).length)
+    this.total &#x3D; of(this.tempdata.length)
+    this.violData &#x3D; of((this.tempdata.map((div: any, SINo: number) &#x3D;&gt; ({ id: SINo + 1, ...div })).slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize)))
+
+
+
+  }
+
+
+  Submit() {
+    this.loading &#x3D; true
+    clearInterval(this.interval)
+    this.webServer.JSWDatewise(this.fromDate.value ? this.fromDate.value : &#x27;&#x27;, this.toDate.value ? this.toDate.value : &#x27;&#x27;).subscribe((Response: any) &#x3D;&gt; {
+      //console.log(Response)
+      if (Response.success) {
+       
+        //console.log(Response.message)
+        data&#x3D;Response.message
+        this.tempdata &#x3D; data
+        this.isdatewise&#x3D;true
+
+        if(this.tempdata.length&gt;30){
+          if(this.pageSize&lt;30){
+            this.pageSize&#x3D;30
+          this.show1&#x3D;15
+          this.show2&#x3D;30
+          this.show3&#x3D;40
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+        }
+        if(this.tempdata.length&gt;&#x3D;400){
+          if(this.pageSize&lt;60){
+          this.pageSize&#x3D;60
+          this.show1&#x3D;50
+          this.show2&#x3D;60
+          this.show3&#x3D;70
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+        }
+          if(this.tempdata.length&gt;&#x3D;1000){
+            if(this.pageSize&lt;100){
+            this.pageSize&#x3D;100
+            this.show1&#x3D;100
+            this.show2&#x3D;150
+            this.show3&#x3D;200
+            }
+            else{
+              this.pageSize&#x3D;this.pageSize
+            }
+        }
+  
+  
+        if(this.tempdata.length&gt;&#x3D;2000){
+          if(this.pageSize&lt;150){
+          this.pageSize&#x3D;200
+          this.show1&#x3D;200
+          this.show2&#x3D;250
+          this.show3&#x3D;300
+          }
+          else{
+            this.pageSize&#x3D;this.pageSize
+          }
+      }
+      if(this.tempdata.length&gt;&#x3D;3000){
+        if(this.pageSize&lt;300){
+        this.pageSize&#x3D;300
+        this.show1&#x3D;300
+        this.show2&#x3D;350
+        this.show3&#x3D;400
+        }
+        else{
+          this.pageSize&#x3D;this.pageSize
+        }
+    }
+
+
+        this.total &#x3D; of(this.tempdata.length)
+        this.isdatewise&#x3D;true
+        this.sliceVD()
+      
+        this.loading&#x3D;false
+        
+      }
+      this.loading&#x3D;false
+     
+    })
+    
+
+  }
+
+  BackToToday(){
+    this.loader2&#x3D;true
+  
+  this.dataread()
+  }
+
+  downloadExcel() {
+    // var Ddata&#x3D;data
+    this.excelLoader &#x3D; true
+    this.images &#x3D; []
+    this.dataForExcel&#x3D;[]
+   data.forEach((each: any) &#x3D;&gt; {
+      this.dataForExcel.push([&#x27;--&#x27;, each.cameraid, each.detected_timestamp,each.exit_timestamp,each.roi_violation_name])
+      this.images.push(each.imagename)
+
+    })
+   // console.log(this.images)
+
+    var images: any[] &#x3D; []
+    for (let i &#x3D; 0; i &lt; this.images.length; i++) {
+      this.toBase64(this.API+&#x27;/image/&#x27;+this.images[i], function (base64) {
+        images.push(base64)
+        console.log(images)
+      })
+
+    }
+    
+
+     setTimeout(() &#x3D;&gt; {
+       
+     
+
+      this.ExcelData &#x3D; {
+        title: &#x27;Traffic Count Data&#x27;,
+        data: this.dataForExcel,
+        headers: [&quot;image&quot;, &quot;cameraid&quot;, &quot;detected timestamp&quot;,&quot;exit timestamp&quot;,&quot;ROI Name&quot;],
+        // TDMCount: this.DM_TDM_Count,
+        // testDriveCount: this.test_drive,
+        images: images,
+        // timespentzone:TSZString
+      }
+      console.log(images.length)
+    }, 8000);
+    
+
+
+
+    
+
+    setTimeout(() &#x3D;&gt; {
+      
+    
+
+      this.excelSheet.exportExcel(this.ExcelData)
+      this.excelLoader &#x3D; false
+   
+   
+
+    }, 9000);
+
+  }
+
+
+
+  downloadPdf() {
+    // var Ddata&#x3D;this.tempdata
+    // console.log(Ddata)
+    this.dataForPdf&#x3D;[]
+    this.pdfLoader &#x3D; true
+    var timeSpentInZone: any[] &#x3D; []
+    this.images &#x3D; []
+    data.forEach((each: any) &#x3D;&gt; {
+      this.dataForPdf.push([&#x27;--&#x27;,each.cameraid,each.detected_timestamp,each.exit_timestamp,each.roi_violation_name])
+      this.images.push(each.imagename)
+      timeSpentInZone.push(each.total_time_spent_in_zone)
+
+
+    })
+    //console.log(this.dataForExcel)
+
+    var images: any[] &#x3D; []
+    console.log(this.images.length)
+    for (let i &#x3D; 0; i &lt; this.images.length; i++) {
+      this.toBase64(this.API+&#x27;/image/&#x27;+this.images[i], function (base64) {
+        console.log(base64)
+        images.push(base64)
+        console.log(images)
+      })
+
+    }
+    
+
+setTimeout(() &#x3D;&gt; {
+  
+
+      this.ExcelData &#x3D; {
+        title: &#x27;Violation Data&#x27;,
+        data: this.dataForExcel,
+        headers: [&quot;image&quot;, &quot;cameraid&quot;, &quot;detected timestamp&quot;,&quot;exit timestamp&quot;,&quot;ROI Name&quot;],
+        // TDMCount: this.DM_TDM_Count,
+        // testDriveCount: this.test_drive,
+        images: images,
+        timeSpentInZone: timeSpentInZone
+        // timespentzone:TSZString
+      }
+      console.log(images.length)
+    }, 9000);
+ //console.log(this.ExcelData)
+
+
+    
+
+setTimeout(() &#x3D;&gt; {
+  
+
+      this.pdfService.createPdf(this.ExcelData)
+      this.pdfLoader &#x3D; false
+   
+
+    }, 10000);
+
+  }
+
+ toBase64(url, callback) {
+    var request &#x3D; new XMLHttpRequest()
+    request.onload &#x3D; function () {
+      var reader &#x3D; new FileReader()
+      reader.onloadend &#x3D; function () {
+        callback(reader.result)
+      }
+      reader.readAsDataURL(request.response)
+
+    }
+    request.open(&#x27;GET&#x27;, url)
+    request.responseType &#x3D; &#x27;blob&#x27;
+    request.send()
+
+  }
+
+
+  ngOnDestroy() {
+    this.modalService.dismissAll()
+    clearInterval(this.closeModal)
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container-fluid dashboard-content&quot;&gt;
+    &lt;div class&#x3D;&quot;page-header&quot;&gt;
+       &lt;h3&gt; &lt;b&gt;Perimter Violation&lt;/b&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+
+    &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+    &lt;!-- INPUTS --&gt;
+    &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+        &lt;div class&#x3D;&quot;col-xl-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group&quot;&gt;
+                &lt;input class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;From  Date&quot; [formControl]&#x3D;&quot;fromDate&quot; ngbDatepicker
+                    #fromD&#x3D;&quot;ngbDatepicker&quot; (click)&#x3D;&quot;fromD.toggle()&quot; readonly&gt;
+                &lt;div class&#x3D;&quot;input-group-append&quot;&gt;
+                    &lt;button class&#x3D;&quot;btn btn-custome calendar&quot; (click)&#x3D;&quot;fromD.toggle()&quot; type&#x3D;&quot;button&quot;&gt;&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;col-xl-3 form-group&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group&quot;&gt;
+                &lt;input class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;To Date&quot; ngbDatepicker #Todate&#x3D;&quot;ngbDatepicker&quot;
+                    (click)&#x3D;&quot;Todate.toggle()&quot; readonly [formControl]&#x3D;&quot;toDate&quot;&gt;
+                &lt;div class&#x3D;&quot;input-group-append&quot;&gt;
+                    &lt;button class&#x3D;&quot;btn btn-custome calendar&quot; (click)&#x3D;&quot;Todate.toggle()&quot; type&#x3D;&quot;button&quot;&gt;&lt;/button&gt;
+                &lt;/div&gt;
+
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col-xl-2&quot;&gt;
+            &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                &lt;select class&#x3D;&quot;custom-select&quot; id&#x3D;&quot;location&quot; #location&gt;
+                    &lt;option value&#x3D;&quot;MSIL_DELHI&quot; selected&gt;JSW&lt;/option&gt;
+
+                &lt;/select&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;col-xl-1&quot;&gt;
+            &lt;button class&#x3D;&quot;btn btn-custome&quot; (click)&#x3D;&quot;Submit()&quot; style&#x3D;&quot;width:70px&quot; [disabled]&#x3D;&quot;!fromDate.valid &amp;&amp; !toDate.valid&quot;&gt;&lt;span
+                    *ngIf&#x3D;&quot;!loading&quot; class&#x3D;&quot;text-dark&quot;&gt;Submit&lt;/span&gt;
+                &lt;span class&#x3D;&quot;spinner-border spinner-border-sm&quot; role&#x3D;&quot;status&quot; aria-hidden&#x3D;&quot;true&quot; *ngIf&#x3D;&quot;loading&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+
+        &lt;/div&gt;
+       
+        &lt;div class&#x3D;&quot;col-xl-3&quot;&gt;
+            &lt;div class&#x3D;&quot;btn-group&quot; *ngIf&#x3D;&quot;tempdata.length&gt;0&quot;&gt;
+            &lt;button  type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-custome&quot; (click)&#x3D;&quot;downloadExcel()&quot;&gt;&lt;span *ngIf&#x3D;&quot;!excelLoader&quot;&gt;&lt;fa-icon icon&#x3D;&quot;download&quot; class&#x3D;&quot;mr-2&quot;&gt;&lt;/fa-icon&gt;&lt;/span&gt;&lt;span *ngIf&#x3D;&quot;excelLoader&quot; class&#x3D;&quot;spinner-border spinner-border-sm mr-2&quot; role&#x3D;&quot;status&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Excel&lt;/button&gt;
+            &lt;button  type&#x3D;&quot;button&quot;  class&#x3D;&quot;btn btn-custome&quot; (click)&#x3D;&quot;downloadPdf()&quot; &gt;&lt;span *ngIf&#x3D;&quot;!pdfLoader&quot;&gt;&lt;fa-icon icon&#x3D;&quot;download&quot; class&#x3D;&quot;mr-2&quot;&gt;&lt;/fa-icon&gt;&lt;/span&gt;&lt;span *ngIf&#x3D;&quot;pdfLoader&quot; class&#x3D;&quot;spinner-border spinner-border-sm mr-2&quot; role&#x3D;&quot;status&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;pdf&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;!-- &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-custome ml-1&quot;&gt;Reset&lt;/button&gt; --&gt;
+            &lt;/div&gt; 
+      
+
+
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;!-- END OF INPUTS --&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;!-- DATA TABLE --&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+
+        &lt;div class&#x3D;&quot;col-xs-12 col-xs-12 col-md-12 col-lg-12 mt-3&quot;&gt;
+            &lt;div class&#x3D;&quot;card&quot; width&#x3D;&quot;100%&quot;&gt;
+                
+                
+                &lt;div class&#x3D;&quot;mt-3 mb-2&quot;&gt;
+                    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+
+                        &lt;span class&#x3D;&quot;float-left ml-2 mt-2&quot; &gt;&lt;button class&#x3D;&quot;btn btn-custome&quot; *ngIf&#x3D;&quot;isdatewise&quot; (click)&#x3D;&quot;BackToToday()&quot; style&#x3D;&quot;width:130px&quot;&gt;
+                           &lt;span *ngIf&#x3D;&quot;!loader2&quot;&gt;Back to Today&lt;/span&gt; 
+                            &lt;span class&#x3D;&quot;spinner-border spinner-border-sm&quot; role&#x3D;&quot;status&quot; aria-hidden&#x3D;&quot;true&quot; *ngIf&#x3D;&quot;loader2&quot;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;
+
+
+                       &lt;!-- &lt;span class&#x3D;&quot;form-inline mb-2 float-left&quot;&gt;
+                             &lt;span class&#x3D;&quot;input-group&quot;&gt;&lt;span class&#x3D;&quot;ml-2 input-group-append input-group-text&quot;
+                                    style&#x3D;&quot;height: 36px;&quot;&gt;
+                                    &lt;fa-icon icon&#x3D;&quot;search&quot;&gt;&lt;/fa-icon&gt;
+                                &lt;/span&gt;&lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; [formControl]&#x3D;&quot;filterOut&quot;
+                                    placeholder&#x3D;&quot;Search by camera name&quot;&gt;&lt;/span&gt;&lt;/span&gt; --&gt;
+                                    
+                                   &lt;span class&#x3D;&quot;d-flex justify-content-end p-1&quot;&gt; &lt;span class&#x3D;&quot;mr-2 mt-2&quot;&gt;&lt;b&gt;Show:&lt;/b&gt;&lt;/span&gt; &lt;select class&#x3D;&quot;custom-select&quot; style&#x3D;&quot;width: auto&quot; [(ngModel)]&#x3D;&quot;pageSize&quot;
+                        (ngModelChange)&#x3D;&quot;sliceVD()&quot;&gt;
+                        &lt;option [ngValue]&#x3D;show1&gt;{{show1}} items per page&lt;/option&gt;
+                        &lt;option [ngValue]&#x3D;show2&gt;{{show2}} items per page&lt;/option&gt;
+                        &lt;option [ngValue]&#x3D;show3&gt;{{show3}} items per page&lt;/option&gt;
+                    &lt;/select&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+                &lt;table class&#x3D;&quot;table table-striped   table-bordered&quot; &gt;
+                    &lt;thead style&#x3D;&quot;text-align: center;&quot; class&#x3D;&quot;text-white&quot;&gt;
+                        &lt;tr&gt;
+                            &lt;th scope&#x3D;&quot;col&quot;&gt;&lt;b&gt;S No&lt;/b&gt;&lt;/th&gt;
+                            &lt;th scope&#x3D;&quot;col&quot;&gt;&lt;b&gt;&lt;fa-icon icon&#x3D;&quot;image&quot; class&#x3D;&quot;mr-1&quot;&gt;&lt;/fa-icon&gt;Image&lt;/b&gt;&lt;/th&gt;
+                            &lt;th scope&#x3D;&quot;col&quot;&gt;&lt;b&gt;&lt;fa-icon icon&#x3D;&quot;clock&quot; class&#x3D;&quot;mr-1&quot;&gt;&lt;/fa-icon&gt;Detected Time&lt;/b&gt;&lt;/th&gt;
+                            &lt;th scope&#x3D;&quot;col&quot;&gt;&lt;b&gt;&lt;fa-icon icon&#x3D;&quot;clock&quot; class&#x3D;&quot;mr-1&quot;&gt;&lt;/fa-icon&gt;Exit Time&lt;/b&gt;&lt;/th&gt;
+
+                            &lt;th scope&#x3D;&quot;col&quot;&gt;&lt;b&gt;&lt;fa-icon icon&#x3D;&quot;camera-retro&quot; class&#x3D;&quot;mr-1&quot;&gt;&lt;/fa-icon&gt;Camera ID&lt;/b&gt;&lt;/th&gt;
+                              &lt;th scope&#x3D;&quot;col&quot;&gt;&lt;b&gt;ROI Name&lt;/b&gt;&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr *ngFor&#x3D;&quot;let d of violData|async;let i&#x3D;index&quot; style&#x3D;&quot;text-align: center;&quot;&gt;
+                            &lt;td&gt;{{d.id}}&lt;/td&gt;
+                            &lt;td&gt;&lt;img [src]&#x3D;&quot;API+&#x27;/image/&#x27;+d.imagename&quot; class&#x3D;&quot;image&quot; (click)&#x3D;&quot;openImage(d.imagename, image)&quot;&gt;&lt;/td&gt;
+
+                            &lt;!-- &lt;td&gt;
+                                &lt;ngb-highlight [result]&#x3D;&quot;d.camerName&quot; [term]&#x3D;&quot;filterOut.value&quot;&gt;&lt;/ngb-highlight&gt;
+                            &lt;/td&gt; --&gt;
+                            &lt;td&gt;
+                                &lt;ngb-highlight [result]&#x3D;&quot;d.detected_timestamp&quot; [term]&#x3D;&quot;filterOut.value&quot;&gt;&lt;/ngb-highlight&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;ngb-highlight [result]&#x3D;&quot;d.exit_timestamp&quot; [term]&#x3D;&quot;filterOut.value&quot;&gt;&lt;/ngb-highlight&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;ngb-highlight [result]&#x3D;&quot;d.cameraid&quot; [term]&#x3D;&quot;filterOut.value&quot;&gt;&lt;/ngb-highlight&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;ngb-highlight [result]&#x3D;&quot;d.roi_violation_name&quot; [term]&#x3D;&quot;filterOut.value&quot;&gt;&lt;/ngb-highlight&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+
+                &lt;/table&gt;
+                &lt;div class&#x3D;&quot;d-flex justify-content-center p-1&quot;&gt;
+                    &lt;ngb-pagination [collectionSize]&#x3D;&quot;total|async&quot; [(page)]&#x3D;&quot;page&quot; [pageSize]&#x3D;&quot;pageSize&quot;
+                        (pageChange)&#x3D;&quot;sliceVD()&quot;&gt;
+                    &lt;/ngb-pagination&gt;
+
+                    
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;!-- END OF DATA TABLE --&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;!-- POP UP FOR NUMBER PLATE --&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;ng-template #image let-modal&gt;
+            &lt;div class&#x3D;&quot;&quot;&gt;
+                &lt;div class&#x3D;&quot;modal-header&quot;&gt;
+
+                    &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;close&quot; aria-label&#x3D;&quot;Close&quot; (click)&#x3D;&quot;modal.dismiss(&#x27;Cross click&#x27;)&quot;&gt;
+                        &lt;span aria-hidden&#x3D;&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;modal-body&quot;&gt;
+                    &lt;div class&#x3D;&quot;row&quot;&gt;
+                        &lt;div class&#x3D;&quot;col&quot;&gt;
+
+
+
+                            &lt;div&gt;
+                                &lt;lib-ngx-image-zoom  [thumbImage]&#x3D;imageUrl zoomMode&#x3D;&quot;click&quot;
+                                    [fullImage]&#x3D;imageUrl [magnification]&#x3D;&quot;1&quot; [enableScrollZoom]&#x3D;&quot;true&quot;&gt;
+                                &lt;/lib-ngx-image-zoom&gt;
+
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/ng-template&gt;
+
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;!-- END OF POPO UP --&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+        &lt;!-- POP UP FOR  VEHICLE --&gt;
+        &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+
+        &lt;ng-template #dangerAlert let-modal&gt;
+
+            &lt;div class&#x3D;&quot;alert alert-danger mb-0&quot; style&#x3D;&quot;border: 2px solid rgba(121, 20, 20, 0.699);background-color:rgba(214, 148, 148, 0.459);&quot;&gt;
+                &lt;div class&#x3D;&quot;modal-header&quot; style&#x3D;&quot;text-align: center;&quot;&gt;
+                    &lt;h3 class&#x3D;&quot;text-danger&quot;&gt;Violation&lt;/h3&gt;
+                    &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;close&quot; aria-label&#x3D;&quot;Close&quot; (click)&#x3D;&quot;modal.dismiss(&#x27;Cross click&#x27;)&quot;&gt;
+                        &lt;span aria-hidden&#x3D;&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;modal-body&quot;&gt;
+                    &lt;div class&#x3D;&quot;col-xl-12 col-lg-12 col-md-12 col-xs-12&quot;&gt;
+
+                        &lt;div class&#x3D;&quot;col-xl-5 col-xs-5 col-md-5&quot;&gt;
+                            &lt;img [src]&#x3D;&quot;API+&#x27;/image/&#x27;+currentViol.imagename&quot;
+                                alt&#x3D;&quot;&quot; class&#x3D;&quot;violImage&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;col-xl-12 col-md-12 col-lg-12 col-xs-12&quot;&gt;
+                            &lt;h4&gt;&lt;b&gt;Camera ID : &lt;/b&gt;&lt;span class&#x3D;&quot;text-dark&quot;&gt;{{currentViol.cameraid}}&lt;/span&gt;&lt;/h4&gt;
+                            &lt;h4&gt;&lt;b&gt; Detected Time : &lt;/b&gt;&lt;span class&#x3D;&quot;text-dark&quot;&gt;{{currentViol.detected_timestamp}}&lt;/span&gt;&lt;/h4&gt;
+                            &lt;h4&gt;&lt;b&gt; Exit Time : &lt;/b&gt;&lt;span class&#x3D;&quot;text-dark&quot;&gt;{{currentViol.exit_timestamp}}&lt;/span&gt;&lt;/h4&gt;
+
+                        &lt;/div&gt;
+
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+
+        &lt;/ng-template&gt;
+
+    &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+    &lt;!-- END OF POP UP --&gt;
+    &lt;!-- &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; --&gt;
+
+
+    &lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./perimeter.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">button.calendar {
+    width: 2.75rem;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAYAAAAEN20fAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7ZQxToVAEIY/YCHGxN6XGOIpnpaEsBSeQC9ArZbm9TZ6ADyBNzAhQGGl8Riv4BLAWAgmkpBYkH1b8FWT2WK/zJ8ZJ4qiI6XUI3ANnGKWBnht2/ZBDRK3hgVGNsCd7/ui+JkEIrKtqurLpEWaphd933+IyI3LEIdpCYCiKD6HcuOa/nwOa0ScJEnk0BJg0UTUWJRl6RxCYEzEmomsIlPU3IPW+grIAbquy+q6fluy/28RIBeRMwDXdXMgXLj/B2uimRXpui4D9sBeRLKl+1N+L+t6RwbWrZliTTTr1oxYtzVWiTQAcRxvTX+eJMnlUDaO1vpZRO5NS0x48sIwfPc87xg4B04MCzQi8hIEwe4bl1DnFMCN2zsAAAAASUVORK5CYII&#x3D;) !important;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center;
+}
+.image{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 110px;
+    width: 230px;
+    
+    object-fit:contain;
+}
+
+ ::ng-deep .modalViol {
+     left: 390px;    
+     top: 10px;
+     animation: 3s infinite beatHeart; 
+     transform-origin:center;
+     
+     /* border:1px solid rgb(99, 9, 9) */
+
+  }
+
+  ::ng-deep .modalViol:hover {
+    left: 390px;    
+    top: 10px;
+    animation: .9s infinite; 
+    transform-origin: center;
+    
+    
+
+ }
+ table.table-striped tbody tr td:hover{
+    /* border: 1px solid black; */
+    font-weight: bold;
+
+    border-bottom: 2px solid rgba(16, 10, 104, 0.938); ;
+}
+/* table.table-striped thead tbody tr td{
+  font-weight: bold;
+  padding: 4px;
+
+  border-bottom: 2px solid rgb(247, 63, 134) ;
+} */
+ 
+/* table.table-striped tbody tr:nth-child(odd){
+
+  background-color: rgba(252, 186, 219, 0.336);
+
+}
+
+table.table-striped tbody tr:nth-child(even){
+
+  background-color: rgba(94, 15, 54, 0.021);
+
+} */
+
+/* table.table-striped thead tr th{
+   
+  background-color: rgba(156, 21, 73, 0.788);
+  color:white
+
+} */
+
+
+
+table.table-striped tbody tr:nth-child(odd){
+
+  background-color: rgba(175, 174, 192, 0.5);
+
+}
+
+table.table-striped tbody tr:nth-child(even){
+
+  background-color: rgba(16, 10, 104, 0.041);
+
+} 
+
+ /* table.table-striped thead tr th{
+   
+  background-color: #1b97aa;
+  color:white
+
+} */
+
+.btn.btn-custome{
+  background-color:#1b97aa; 
+  color:black
+}
+
+table.table-striped{
+  /* font-size:15px; */
+  max-width: 100%;
+  /* overflow: scroll; */
+}
+
+/* .card{
+  overflow-x: auto;
+} */
+
+
+  .violImage{
+    width: 360px;
+    height: 250px;
+     object-fit:fill;
+  }
+
+  ::ng-deep .custome{
+    /* margin-block-start: 70px; */
+    width:630px;
+    padding:0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    left: 300px;
+    text-align: center;
+
+}
+
+  ::ng-deep .ngxImageZoomContainer &gt; img{
+    max-height: 600px;
+    width: 600px;
+    object-fit: fill;
+    margin-left: 0px;
+
+  }
+
+input.ng-invalid.ng-touched{
+    border-color: rgb(245, 172, 172);
+}
+
+ngb-pagination ::ng-deep ul &gt; li:not(.active) &gt; a {
+  background-color: rgba(186, 185, 189, 0.938) !important;
+}
+
+ngb-pagination ::ng-deep ul &gt; li.active &gt; a {
+  background-color: rgba(16, 10, 104, 0.979) !important;
+}
+
+
+/* div.container-fluid.dashboard-content{
+  width:90vw;
+  overflow: auto;
+
+  /* overflow-wrap: break-word; */
+
+  @keyframes tada {
+    0% {transform: scale(1);} 
+    10%, 20% {transform: scale(0.9) rotate(-3deg);} 
+    30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);} 
+    40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);} 
+    100% {transform: scale(1) rotate(0);} 
+ } </code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container-fluid dashboard-content">    <div class="page-header">       <h3> <b>Perimter Violation</b></h3>    </div>    <!-- ============================================================== -->    <!-- INPUTS -->    <!-- ============================================================== -->    <div class="row">        <div class="col-xl-3">            <div class="input-group">                <input class="form-control" placeholder="From  Date" [formControl]="fromDate" ngbDatepicker                    #fromD="ngbDatepicker" (click)="fromD.toggle()" readonly>                <div class="input-group-append">                    <button class="btn btn-custome calendar" (click)="fromD.toggle()" type="button"></button>                </div>            </div>        </div>        <div class="col-xl-3 form-group">            <div class="input-group">                <input class="form-control" placeholder="To Date" ngbDatepicker #Todate="ngbDatepicker"                    (click)="Todate.toggle()" readonly [formControl]="toDate">                <div class="input-group-append">                    <button class="btn btn-custome calendar" (click)="Todate.toggle()" type="button"></button>                </div>            </div>        </div>        <div class="col-xl-2">            <div class="form-group">                <select class="custom-select" id="location" #location>                    <option value="MSIL_DELHI" selected>JSW</option>                </select>            </div>        </div>        <div class="col-xl-1">            <button class="btn btn-custome" (click)="Submit()" style="width:70px" [disabled]="!fromDate.valid && !toDate.valid"><span                    *ngIf="!loading" class="text-dark">Submit</span>                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf="loading"></span>            </button>        </div>               <div class="col-xl-3">            <div class="btn-group" *ngIf="tempdata.length>0">            <button  type="button" class="btn btn-custome" (click)="downloadExcel()"><span *ngIf="!excelLoader"><fa-icon icon="download" class="mr-2"></fa-icon></span><span *ngIf="excelLoader" class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>Excel</button>            <button  type="button"  class="btn btn-custome" (click)="downloadPdf()" ><span *ngIf="!pdfLoader"><fa-icon icon="download" class="mr-2"></fa-icon></span><span *ngIf="pdfLoader" class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>pdf</button>            </div>            <!-- <button type="button" class="btn btn-custome ml-1">Reset</button> -->            </div>               <!-- ============================================================== -->        <!-- END OF INPUTS -->        <!-- ============================================================== -->        <!-- ============================================================== -->        <!-- DATA TABLE -->        <!-- ============================================================== -->        <div class="col-xs-12 col-xs-12 col-md-12 col-lg-12 mt-3">            <div class="card" width="100%">                                                <div class="mt-3 mb-2">                    <div class="form-group">                        <span class="float-left ml-2 mt-2" ><button class="btn btn-custome" *ngIf="isdatewise" (click)="BackToToday()" style="width:130px">                           <span *ngIf="!loader2">Back to Today</span>                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf="loader2"></span></button></span>                       <!-- <span class="form-inline mb-2 float-left">                             <span class="input-group"><span class="ml-2 input-group-append input-group-text"                                    style="height: 36px;">                                    <fa-icon icon="search"></fa-icon>                                </span><input type="text" class="form-control" [formControl]="filterOut"                                    placeholder="Search by camera name"></span></span> -->                                                                       <span class="d-flex justify-content-end p-1"> <span class="mr-2 mt-2"><b>Show:</b></span> <select class="custom-select" style="width: auto" [(ngModel)]="pageSize"                        (ngModelChange)="sliceVD()">                        <option [ngValue]=show1>{{show1}} items per page</option>                        <option [ngValue]=show2>{{show2}} items per page</option>                        <option [ngValue]=show3>{{show3}} items per page</option>                    </select></span>                    </div>                </div>                <table class="table table-striped   table-bordered" >                    <thead style="text-align: center;" class="text-white">                        <tr>                            <th scope="col"><b>S No</b></th>                            <th scope="col"><b><fa-icon icon="image" class="mr-1"></fa-icon>Image</b></th>                            <th scope="col"><b><fa-icon icon="clock" class="mr-1"></fa-icon>Detected Time</b></th>                            <th scope="col"><b><fa-icon icon="clock" class="mr-1"></fa-icon>Exit Time</b></th>                            <th scope="col"><b><fa-icon icon="camera-retro" class="mr-1"></fa-icon>Camera ID</b></th>                              <th scope="col"><b>ROI Name</b></th>                        </tr>                    </thead>                    <tbody>                        <tr *ngFor="let d of violData|async;let i=index" style="text-align: center;">                            <td>{{d.id}}</td>                            <td><img [src]="API+\'/image/\'+d.imagename" class="image" (click)="openImage(d.imagename, image)"></td>                            <!-- <td>                                <ngb-highlight [result]="d.camerName" [term]="filterOut.value"></ngb-highlight>                            </td> -->                            <td>                                <ngb-highlight [result]="d.detected_timestamp" [term]="filterOut.value"></ngb-highlight>                            </td>                            <td>                                <ngb-highlight [result]="d.exit_timestamp" [term]="filterOut.value"></ngb-highlight>                            </td>                            <td>                                <ngb-highlight [result]="d.cameraid" [term]="filterOut.value"></ngb-highlight>                            </td>                            <td>                                <ngb-highlight [result]="d.roi_violation_name" [term]="filterOut.value"></ngb-highlight>                            </td>                        </tr>                    </tbody>                </table>                <div class="d-flex justify-content-center p-1">                    <ngb-pagination [collectionSize]="total|async" [(page)]="page" [pageSize]="pageSize"                        (pageChange)="sliceVD()">                    </ngb-pagination>                                    </div>            </div>        </div>        <!-- ============================================================== -->        <!-- END OF DATA TABLE -->        <!-- ============================================================== -->        <!-- ============================================================== -->        <!-- POP UP FOR NUMBER PLATE -->        <!-- ============================================================== -->        <ng-template #image let-modal>            <div class="">                <div class="modal-header">                    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss(\'Cross click\')">                        <span aria-hidden="true">&times;</span>                    </button>                </div>                <div class="modal-body">                    <div class="row">                        <div class="col">                            <div>                                <lib-ngx-image-zoom  [thumbImage]=imageUrl zoomMode="click"                                    [fullImage]=imageUrl [magnification]="1" [enableScrollZoom]="true">                                </lib-ngx-image-zoom>                            </div>                        </div>                    </div>                </div>            </div>        </ng-template>        <!-- ============================================================== -->        <!-- END OF POPO UP -->        <!-- ============================================================== -->        <!-- ============================================================== -->        <!-- POP UP FOR  VEHICLE -->        <!-- ============================================================== -->        <ng-template #dangerAlert let-modal>            <div class="alert alert-danger mb-0" style="border: 2px solid rgba(121, 20, 20, 0.699);background-color:rgba(214, 148, 148, 0.459);">                <div class="modal-header" style="text-align: center;">                    <h3 class="text-danger">Violation</h3>                    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss(\'Cross click\')">                        <span aria-hidden="true">&times;</span>                    </button>                </div>                <div class="modal-body">                    <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12">                        <div class="col-xl-5 col-xs-5 col-md-5">                            <img [src]="API+\'/image/\'+currentViol.imagename"                                alt="" class="violImage">                        </div>                        <div class="col-xl-12 col-md-12 col-lg-12 col-xs-12">                            <h4><b>Camera ID : </b><span class="text-dark">{{currentViol.cameraid}}</span></h4>                            <h4><b> Detected Time : </b><span class="text-dark">{{currentViol.detected_timestamp}}</span></h4>                            <h4><b> Exit Time : </b><span class="text-dark">{{currentViol.exit_timestamp}}</span></h4>                        </div>                    </div>                </div>            </div>        </ng-template>    <!-- ============================================================== -->    <!-- END OF POP UP -->    <!-- ============================================================== -->    </div></div>'
+    var COMPONENTS = [{'name': 'AnalysisComponent', 'selector': 'app-analysis'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CompareMonthlyComponent', 'selector': 'app-compare-monthly'},{'name': 'CompareWeeklyComponent', 'selector': 'app-compare-weekly'},{'name': 'CompareYearlyComponent', 'selector': 'app-compare-yearly'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LogInComponent', 'selector': 'app-log-in'},{'name': 'LoginHeaderComponent', 'selector': 'app-login-header'},{'name': 'MenubarComponent', 'selector': 'app-menubar'},{'name': 'PageSettingComponent', 'selector': 'app-page-setting'},{'name': 'PerimeterComponent', 'selector': 'app-perimeter'},{'name': 'QuarterlyComponent', 'selector': 'app-quarterly'},{'name': 'TrafficCountComponent', 'selector': 'app-traffic-count'},{'name': 'UserManagementComponent', 'selector': 'app-user-management'},{'name': 'YearlyComponent', 'selector': 'app-yearly'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'PerimeterComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'PerimeterComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,14 @@
+
+{
+    "/image/object/*": {
+      "target": "http://50.19.134.121:5000",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel":"debug",
+      "pathRewrite": {"^/image/object": "http://50.19.134.121:5000/image/object"}
+
+
+    }
+
+
+  }
